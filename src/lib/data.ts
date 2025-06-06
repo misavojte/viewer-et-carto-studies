@@ -27,7 +27,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "Structured tasks (e.g., finding commonalities between movies, ranking collaborations) + Semi-structured tasks (e.g., recommending a movie) + Unstructured tasks (e.g., exploring connections between actors and movies)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "9"
+    ],
     "stimuli": [
       "Interactive visualization of IMDB data (PivotPaths visualization)"
     ],
@@ -66,7 +68,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "Informational tasks (e.g., answering specific questions by finding information in visualizations) + Navigational tasks (e.g., exploring a webpage from the visualization platform)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "23"
+    ],
     "stimuli": [
       "Treemap and Stacked Graph visualizations from the Observatory of Economic Complexity by MIT"
     ],
@@ -107,7 +111,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "Exploratory tasks (e.g., freely exploring city panoramas) + Directed tasks (e.g., fixating on specific buildings for a given time)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "5"
+    ],
     "stimuli": [
       "City panoramas from three different vantage points in Zurich"
     ],
@@ -148,7 +154,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "General interaction tasks (e.g., entering the application, changing profile configuration) + Map interaction tasks (e.g., changing the basemap, finding a POI, leaving a comment, adding a new POI)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "73"
+    ],
     "stimuli": [
       "GeoCitizen application"
     ],
@@ -190,7 +198,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "General interaction tasks (e.g., entering the application, changing profile configuration) + Map interaction tasks (e.g., changing the basemap, finding a POI, leaving a comment, adding a new POI)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "73"
+    ],
     "stimuli": [
       "GeoCitizen application"
     ],
@@ -282,7 +292,9 @@ export const data: readonly StudyRow[] = [
       "Spatial knowledge tasks (e.g., pointing tasks, photo recognition, sequence ordering)",
       "Secondary tasks (e.g., searching for letters along the route to increase cognitive load and distractions)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "28"
+    ],
     "stimuli": [
       "Visual navigation system: TomTom GO (continual map access with pedestrian mode)",
       "Tactile navigation system: Shoe me the Way (tactile navigation via vibrators in shoes)"
@@ -390,7 +402,9 @@ export const data: readonly StudyRow[] = [
       "Investigative tasks (e.g., analysing complex data sets for sense-making and hypothesis testing)",
       "Hypothesis-driven tasks (e.g., verifying predefined hypotheses about user interactions)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "VarifocalReader (a multi-layered text visualization tool for exploring and understanding complex documents)",
       "Word Cloud Explorer (a text analysis tool using word clouds for exploratory data analysis)"
@@ -443,7 +457,9 @@ export const data: readonly StudyRow[] = [
       "Investigative tasks (e.g., making sense of complex data sets and testing hypotheses)",
       "Sense-making tasks (e.g., reasoning and decision-making based on visual data exploration)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "Interactive Visualization Systems (VarifocalReader and other interactive visual analytics tools)"
     ],
@@ -496,7 +512,9 @@ export const data: readonly StudyRow[] = [
       "Exploratory tasks (e.g., freely exploring historical landscapes)",
       "Identification tasks (e.g., finding the location of historical objects)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "21"
+    ],
     "stimuli": [
       "Space–Time Cube and Slider-based Visualization representing the historical changes of the Royal Castle in Warsaw, Poland",
       "3D Historical Objects (buildings, defensive walls, gardens, water bodies)"
@@ -553,7 +571,9 @@ export const data: readonly StudyRow[] = [
       "Planning tasks (e.g., planning a travel route considering active fires)",
       "Exploratory tasks (e.g., freely exploring the interactive map)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "MyFireWatch Interactive Map (showing satellite-derived fire hotspots, burnt areas, lightning activity, and vegetation coverage)"
     ],
@@ -613,7 +633,9 @@ export const data: readonly StudyRow[] = [
       "Memory tasks (e.g., recalling spatial configurations after a 2-week delay)",
       "Exploratory tasks (e.g., exploring maps to learn spatial relations)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "24"
+    ],
     "stimuli": [
       "Interactive Map (IM) (a multitouch screen with a raised-line overlay and audio output)",
       "Paper Map (PM) (traditional raised-line map with Braille legend)",
@@ -682,7 +704,9 @@ export const data: readonly StudyRow[] = [
       "Perception tasks (e.g., comparing depth perception across different shearing configurations)",
       "Exploratory tasks (e.g., exploring terrain maps with interactive relief shearing)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "49"
+    ],
     "stimuli": [
       "Interactive Terrain Maps (implemented using OpenLayers 3 and WebGL for rendering)",
       "Elastic Terrain Map Prototype (featuring integrated and hybrid shearing animations)"
@@ -873,7 +897,9 @@ export const data: readonly StudyRow[] = [
       "Comparative tasks (e.g., comparing gaze patterns across participants and stimuli)",
       "Pattern recognition tasks (e.g., identifying temporal and spatial patterns in visual attention)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "10"
+    ],
     "stimuli": [
       "Public Transport Maps (metro maps used in a route-finding experiment)"
     ],
@@ -956,7 +982,9 @@ export const data: readonly StudyRow[] = [
       "Comparison tasks (e.g., comparing spatial distributions and thematic data)",
       "Inference tasks (e.g., deriving relationships between map variables)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "30"
+    ],
     "stimuli": [
       "Two interactive online map interfaces:",
       "Natlas (National Atlas of the U.S.A.) using ESRI’s Map Objects and ArcIMS",
@@ -1034,7 +1062,9 @@ export const data: readonly StudyRow[] = [
       "Zooming tasks (e.g., zooming in and out on geospatial maps)",
       "Combined tasks (e.g., simultaneous panning and zooming)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "Google Earth Geospatial Visualizations (using satellite imagery and 3D terrain)",
       "Two Interaction Concepts:",
@@ -1112,7 +1142,9 @@ export const data: readonly StudyRow[] = [
       "Search tasks (e.g., searching for a city using the search button)",
       "Route finding tasks (e.g., finding a route between two cities using the route button)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "40"
+    ],
     "stimuli": [
       "Web Maps with two different GUIs:",
       "Google Maps-based GUI (with button placement resembling Google Maps)",
@@ -1193,7 +1225,9 @@ export const data: readonly StudyRow[] = [
       "Wayfinding tasks (e.g., navigating through a smart building using adaptive route instructions)",
       "Decision-making tasks (e.g., choosing the correct route at complex decision points)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "33"
+    ],
     "stimuli": [
       "Adaptive Mobile Wayfinding System (ARC) with three types of route instructions:",
       "Symbols + Text for starting and ending routes",
@@ -1271,7 +1305,9 @@ export const data: readonly StudyRow[] = [
       "Wayfinding tasks (e.g., navigating through a virtual building using adaptive route instructions)",
       "Decision-making tasks (e.g., choosing the correct route at complex decision points)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "32"
+    ],
     "stimuli": [
       "Adaptive VR Wayfinding System with three types of route instructions:",
       "Symbols + Text for starting and ending routes",
@@ -1348,7 +1384,9 @@ export const data: readonly StudyRow[] = [
       "Spatial overlay tasks (e.g., identifying classrooms by overlaying layers)",
       "Feature identification tasks (e.g., finding specific features by querying attributes)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "302"
+    ],
     "stimuli": [
       "Interactive Web Map Interface with two versions:",
       "Control Version: Basic navigation tools (zoom, pan, layer visibility)",
@@ -1415,7 +1453,9 @@ export const data: readonly StudyRow[] = [
       "Direct acquisition tasks (e.g., identifying differences among map symbols and spatial distributions)",
       "Reasoning tasks (e.g., making decisions for public health investment based on spatial patterns)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "269"
+    ],
     "stimuli": [
       "Three Web Map Sets:",
       "Choropleth Maps (using colour value as a visual variable)",
@@ -1487,7 +1527,9 @@ export const data: readonly StudyRow[] = [
       "Visual exploration tasks (e.g., observing the overall view of the historical village)",
       "Search tasks (e.g., finding a specific building in the village)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "28"
+    ],
     "stimuli": [
       "Three Types of Visualizations:",
       "Cadastral Map (2D historical map)",
@@ -1565,7 +1607,9 @@ export const data: readonly StudyRow[] = [
       "Eyes-first tracing tasks (e.g., eyes move first, mouse follows the gaze)",
       "Mouse-first tracing tasks (e.g., mouse moves first, eyes follow the pointer)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "11"
+    ],
     "stimuli": [
       "Geometric Shapes:",
       "Circle, Rectangle, Flower, Star (as proxies for routes on maps)",
@@ -1640,7 +1684,9 @@ export const data: readonly StudyRow[] = [
       "Decision-making tasks (e.g., selecting design events or workshops)",
       "Comparison tasks (e.g., comparing two versions of the DIC website)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "12"
+    ],
     "stimuli": [
       "Two Iterations of the DIC Website:",
       "Website A: Original design with complex structure",
@@ -1724,7 +1770,9 @@ export const data: readonly StudyRow[] = [
       "Comparison tasks (e.g., comparing data flow between diagrams)",
       "Cognitive processing tasks (e.g., understanding algorithm sequences)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "22"
+    ],
     "stimuli": [
       "22 Workflow Diagrams from QGIS Processing Modeler:",
       "Different Sizes and Functions (small, medium, large)",
@@ -1800,7 +1848,9 @@ export const data: readonly StudyRow[] = [
       "Temporal pattern recognition tasks (e.g., identifying peak traffic flow periods)",
       "Comparison tasks (e.g., comparing different color classes or size categories)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "50"
+    ],
     "stimuli": [
       "Dynamic Maps displaying real-time traffic flow data using:",
       "Color (varying number of color classes)",
@@ -1878,7 +1928,9 @@ export const data: readonly StudyRow[] = [
       "Visual search tasks (e.g., identifying the largest or smallest flow volume)",
       "Comparison tasks (e.g., comparing flow volumes between cities)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "40"
+    ],
     "stimuli": [
       "Flow Maps displaying mobile communication data from Northeast China, using:",
       "Straight Lines vs. Curves to indicate flow direction",
@@ -2021,7 +2073,9 @@ export const data: readonly StudyRow[] = [
       "Decision-making tasks (e.g., choosing the correct street at decision points)",
       "Spatial learning tasks (e.g., recognizing street intersections and ordering them chronologically)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "32"
+    ],
     "stimuli": [
       "Virtual Urban Environment (generated using ESRI CityEngine and navigable in first-person view using Unity)",
       "GazeNav System (gaze-based interaction triggering vibro-tactile feedback for navigation)",
@@ -2099,7 +2153,9 @@ export const data: readonly StudyRow[] = [
       "Revisiting tasks (e.g., revisiting previously inspected POIs)",
       "Decision-making tasks (e.g., choosing the best POI based on ratings and proximity)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "12"
+    ],
     "stimuli": [
       "POITrack System (gaze-adaptive map interface with implicit POI tracking and visual highlights)",
       "Traditional Interactive Web Map (baseline for comparison)",
@@ -2256,7 +2312,9 @@ export const data: readonly StudyRow[] = [
       "Decision-making tasks (e.g., choosing the best route or POI based on visual analysis)",
       "Spatial reasoning tasks (e.g., comparing spatial distributions and patterns)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "5"
+    ],
     "stimuli": [
       "Interactive Cartographic Maps with dynamic content and POI icons",
       "FeaturEyeTrack System for real-time matching of gaze data with map features",
@@ -2341,7 +2399,9 @@ export const data: readonly StudyRow[] = [
       "Correlate tasks (e.g., identifying relationships between different indices)",
       "Find anomalies tasks (e.g., spotting outlier municipalities in terms of exposure to natural hazards)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "29"
+    ],
     "stimuli": [
       "Coordinated and Multiple Views (CMV) Tool with:",
       "Map View (showing geographical data with dynamic linking to other views)",
@@ -2422,7 +2482,9 @@ export const data: readonly StudyRow[] = [
       "Visual attention tasks (e.g., identifying elements that attract attention)",
       "Interaction tasks (e.g., dynamic linking and brushing interactions)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "29"
+    ],
     "stimuli": [
       "Coordinated and Multiple Views (CMV) Tool with:",
       "Map View (univariate choropleth maps)",
@@ -2511,7 +2573,9 @@ export const data: readonly StudyRow[] = [
       "Visibility analysis tasks (e.g., determining which elements are visible from a given position)",
       "Viewpoint analysis tasks (e.g., identifying from which positions a given object is visible)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "20"
+    ],
     "stimuli": [
       "Interactive 3D Models representing terrain covered with:",
       "Hypsometric Color Scale (Green to Brown)",
@@ -2601,7 +2665,9 @@ export const data: readonly StudyRow[] = [
       "Preference tasks (e.g., selecting preferred button placements)",
       "Arrangement tasks (e.g., arranging buttons in optimal positions on a mobile map)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "100"
+    ],
     "stimuli": [
       "Six Web Mapping Services:",
       "Google Maps (most popular with 100% usage among participants)",
@@ -2690,7 +2756,9 @@ export const data: readonly StudyRow[] = [
       "Spatial Navigation Tasks (e.g., navigating virtual space and interacting with objects)",
       "Geometric Feature Analysis (e.g., exploring different curvatures and feature curves on 3D objects)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "3D Objects with Geometric Features:",
       "Controlled Spherical Model (with convex and concave squares, circular and cross features)",
@@ -2777,7 +2845,9 @@ export const data: readonly StudyRow[] = [
       "Parent Identification tasks (e.g., finding direct parent nodes)",
       "Count tasks (e.g., counting total number of children nodes)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "15"
+    ],
     "stimuli": [
       "Three Hierarchical Visualization Designs:",
       "Static Node-Link Tree (showing all hierarchical information without interactions)",
@@ -3110,7 +3180,9 @@ export const data: readonly StudyRow[] = [
       "Line following (following a line and counting intersections)",
       "Polygon comparison (comparing areas of two polygons and naming the bigger one)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "17"
+    ],
     "stimuli": [
       "Google Maps in Classical Style (to ensure familiarity with the cartographic product)",
       "Stimuli from Germany and Austria (to avoid geographical familiarity but maintain cultural context)",
@@ -3379,7 +3451,9 @@ export const data: readonly StudyRow[] = [
       "Querying Spatial Data (e.g., selecting municipalities by population count)",
       "Visual Programming (e.g., designing a model for automatic data processing in ModelBuilder and Processing Modeler)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "30"
+    ],
     "stimuli": [
       "Two GIS Interfaces:",
       "Esri ArcGIS for Desktop Advanced 10.2",
@@ -3558,7 +3632,9 @@ export const data: readonly StudyRow[] = [
       "Trend Analysis (e.g., identifying turning points of climate changes)",
       "Comparison tasks (e.g., comparing stations with different variation trends)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "10"
+    ],
     "stimuli": [
       "Interactive Radial Visualization System:",
       "Map View (central map showing spatial distributions)",
@@ -3646,7 +3722,9 @@ export const data: readonly StudyRow[] = [
       "Trend Analysis (e.g., identifying turning points of climate changes)",
       "Comparison tasks (e.g., comparing stations with different variation trends)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "10"
+    ],
     "stimuli": [
       "Interactive Radial Visualization System:",
       "Map View (central map showing spatial distributions)",
@@ -3734,7 +3812,9 @@ export const data: readonly StudyRow[] = [
       "Spatial Knowledge Acquisition (e.g., memorizing routes and decision points)",
       "Decision-Making at Complex Intersections (e.g., choosing correct paths at complex decision points)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "20"
+    ],
     "stimuli": [
       "2D Map (Google Map) for the 2D group",
       "3D Geo-Browser (Google Earth) for the 3D group",
@@ -3818,7 +3898,9 @@ export const data: readonly StudyRow[] = [
       "Dwell Time Variation Tasks (e.g., 200 ms, 600 ms, and 1000 ms dwell times)",
       "Buffer Size Variation Tasks (e.g., different buffer sizes for points and polylines)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "38"
+    ],
     "stimuli": [
       "Gaze-Based Map Interaction System:",
       "Point Selection (using buffer sizes of 1°, 1.5°, and 2°)",
@@ -4074,7 +4156,9 @@ export const data: readonly StudyRow[] = [
       "Gaze Judgment Tasks (e.g., looking or pointing in the perceived direction of landmarks)",
       "Cognitive Mapping Tasks (e.g., maintaining an internal representation of landmark positions)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "27"
+    ],
     "stimuli": [
       "Spherical Panoramic Environment (SPE) using Google Street View:",
       "Immersive HMD Viewing (ISPE): Using eMagin Z800 HMD with head orientation tracking",
@@ -4168,7 +4252,9 @@ export const data: readonly StudyRow[] = [
       "Search Tasks (e.g., finding specific information on web pages)",
       "Fact-Finding Tasks (e.g., known-item search tasks with information located in specific areas)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "16"
+    ],
     "stimuli": [
       "Nine Web Pages with varying visual complexity:",
       "Simple Pages (e.g., Government and Leisure/Social websites)",
@@ -4359,7 +4445,9 @@ export const data: readonly StudyRow[] = [
       "Visual Search Tasks (e.g., locating city names on interactive maps)",
       "Pan Operation Tasks (e.g., locating labels before and after simulated pan operations)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "14"
+    ],
     "stimuli": [
       "Dynamic Interactive Demo-Maps:",
       "Point Objects (symbolizing cities) and associated Name Labels",
@@ -4532,7 +4620,9 @@ export const data: readonly StudyRow[] = [
       "Pan Operation Tasks (e.g., locating labels before and after simulated pan operations)",
       "Cognitive Load and Efficiency Tasks (e.g., response time and fixation duration analysis)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "30"
+    ],
     "stimuli": [
       "Dynamic Interactive Maps:",
       "Point Objects (representing geographic names) and associated Name Labels",
@@ -4619,7 +4709,9 @@ export const data: readonly StudyRow[] = [
       "Spatial-Temporal Analysis (e.g., analyzing changes across space and time)",
       "Memory Tasks (e.g., recalling specific information from the animations)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "10"
+    ],
     "stimuli": [
       "Two Types of Cartographic Animations:",
       "Semistatic Animations (integrating past, present, and future information in each frame)",
@@ -4704,7 +4796,9 @@ export const data: readonly StudyRow[] = [
       "Free-Exploration Task (e.g., viewing multi-component animated maps without a specific task)",
       "Task-Based Viewing (e.g., viewing all components with specific questions related to temporal and spatial relations)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "23"
+    ],
     "stimuli": [
       "Multi-Component Animated Map:",
       "Main Animated Map (showing the progression of a fictitious forest fire over a satellite image)",
@@ -4794,7 +4888,9 @@ export const data: readonly StudyRow[] = [
       "Exploration Tasks (e.g., exploring layers of comments and social media usage patterns)",
       "Trend Analysis and Pattern Recognition (e.g., identifying trends and patterns in data visualizations)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "19"
+    ],
     "stimuli": [
       "Two Interactive Data Visualization Tools:",
       "Tool W: Active users on a Facebook fan page and share map of a single post",
@@ -4882,7 +4978,9 @@ export const data: readonly StudyRow[] = [
       "Dynamic Interaction Tasks (e.g., filtering data, changing heatmap colors, timeline exploration)",
       "Information Retrieval Tasks (e.g., finding crime numbers, traffic flow details, and accident statistics)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "17"
+    ],
     "stimuli": [
       "Three Map-Based Visual Analytic Tools:",
       "Chicago Map: Visualizes reported crime incidents in Chicago using WebGLayer.",
@@ -4978,7 +5076,9 @@ export const data: readonly StudyRow[] = [
       "Comparison Tasks (e.g., comparing weather conditions across multiple locations)",
       "Trend Analysis and Pattern Recognition (e.g., identifying weather trends and patterns over time)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "34"
+    ],
     "stimuli": [
       "Five Weather Web Maps:",
       "DarkSky: Simple composition, no advanced map features, missing legend",
@@ -5065,7 +5165,9 @@ export const data: readonly StudyRow[] = [
       "Information Retrieval Tasks (e.g., identifying highest land suitability areas)",
       "Spatial Pattern Recognition (e.g., recognizing spatial relationships between maps)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "25"
+    ],
     "stimuli": [
       "Two Map Comparison Methods:",
       "Multiple View: Simultaneous side-by-side display of two or four synchronized map windows",
@@ -5151,7 +5253,9 @@ export const data: readonly StudyRow[] = [
       "Virtual Tour Tasks (e.g., navigating Google Street View and experiencing a virtual tour)",
       "Exploration Tasks (e.g., zooming in and out, selecting locations, opening Street View)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "5"
+    ],
     "stimuli": [
       "Google Maps (Desktop Version):",
       "2D Map View: Interactive map navigation using cursor movements",
@@ -5237,7 +5341,9 @@ export const data: readonly StudyRow[] = [
       "Global-Between Task (e.g., comparison of distribution differences between attribute classes globally)",
       "Local-Between Task (e.g., comparison of attribute classes in different local regions)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "50"
+    ],
     "stimuli": [
       "Exploratory Tag Map:",
       "Four Attributes-in-Space Tasks:",
@@ -5317,7 +5423,9 @@ export const data: readonly StudyRow[] = [
       "Spatial Referencing Tasks (e.g., using gaze overlay for deictic references during conversation)",
       "Interest Detection and Topic Switching (e.g., detecting user interest and managing topic flow using gaze cues)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "12"
+    ],
     "stimuli": [
       "RealTourist System:",
       "Shared Interactive Maps of two imaginary cities (Vapour Bay and Nolia)",
@@ -5395,7 +5503,9 @@ export const data: readonly StudyRow[] = [
     "taskTypes": [
       "Not applicable (no tasks defined, interview-based study)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "21"
+    ],
     "stimuli": [
       "Not applicable"
     ],
@@ -5480,7 +5590,9 @@ export const data: readonly StudyRow[] = [
       "Commenting and naming map features",
       "Cognitive load measurement and usability feedback"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "30"
+    ],
     "stimuli": [
       "Mock PPGIS platform for participatory spatial planning, designed to mimic real-life applications"
     ],
@@ -5523,7 +5635,9 @@ export const data: readonly StudyRow[] = [
       "Causality reading tasks (understanding causal relationships between events)",
       "Semiology tasks (understanding map symbols and legend)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "22"
+    ],
     "stimuli": [
       "Two versions of a geovisualization tool showing historical flood events:",
       "Interactive map: Displays events as symbols with causality lines on-demand.",
@@ -5567,7 +5681,9 @@ export const data: readonly StudyRow[] = [
       "Selection tasks (locating and marking cities on a VR map)",
       "Navigation tasks (panning and zooming on the VR map)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "12"
+    ],
     "stimuli": [
       "Immersive VR map interface developed in Unity for Oculus Rift™",
       "Two interaction mechanisms:",
@@ -5716,7 +5832,9 @@ export const data: readonly StudyRow[] = [
       "Night transport network",
       "Nocturnal points of interest (e.g., restaurants, bars)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "26"
+    ],
     "stimuli": [
       "Virtual Reality geovisualization system with three MCV variations:",
       "Blitting, Grid, and Stack displaying multilayered geospatial data",
@@ -5777,7 +5895,9 @@ export const data: readonly StudyRow[] = [
       "Absolute Relative Test: Cognitive style measurement by estimating object sizes",
       "Stroop Spatial Test: Cognitive control using keyboard input for reaction time"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "43"
+    ],
     "stimuli": [
       "Topographic maps for the control group",
       "Contextual transport maps for the experimental group, dynamically adapting to user tasks (e.g., highlighting transport infrastructure during route planning)"
@@ -5825,7 +5945,9 @@ export const data: readonly StudyRow[] = [
       "Social interaction tasks: Following or avoiding groups of pedestrians",
       "Attention and gaze behaviour: Observing pedestrians, vehicles, and crossing signals"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "22"
+    ],
     "stimuli": [
       "Immersive Virtual Reality geosimulation environment depicting a suburban American roadside with:",
       "Signalized zebra crossing (PELICAN) with pedestrian and vehicle traffic signals",
@@ -5877,7 +5999,9 @@ export const data: readonly StudyRow[] = [
       "Coordinating annotations and discussing interpretations",
       "Usability tasks: Navigation and tool selection using dashboard-style menu and controller-based movement selector"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "5"
+    ],
     "stimuli": [
       "Immersive VR environment for geological data interpretation",
       "Terrain visualization of Chicxulub Impact Crater with interactive layers for topography, gravity, and magnetic data",
@@ -5927,7 +6051,9 @@ export const data: readonly StudyRow[] = [
       "Ranking tasks: Ranking blocks by flow volume or activeness",
       "Association tasks: Associating neighbouring blocks with vendor-specific activeness patterns"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "75"
+    ],
     "stimuli": [
       "Metaphorical multivariate symbols for dockless bike-sharing data, designed using metaphor theory:",
       "Wheels for flow (divided into sections for day/night cycle)",
@@ -5986,7 +6112,9 @@ export const data: readonly StudyRow[] = [
       "Spatial navigation tasks: Locating teams and predicting movement based on mini-map data",
       "Cognitive processing tasks: Evaluating visual attention metrics (e.g., fixation count, duration, first fixation duration, saccades)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "60"
+    ],
     "stimuli": [
       "Mini-map in League of Legends used to interpret spatial situations during gameplay",
       "Five short videos depicting various spatial scenarios in the game, designed to evaluate understanding of point, line, and area-based spatial relationships",
@@ -6050,7 +6178,9 @@ export const data: readonly StudyRow[] = [
       "Color and layout comparison tasks: Evaluating response time, accuracy, and cognitive processing across color and layout combinations",
       "Subjective evaluation tasks: Satisfaction, usability, and emotional preference using a 9-point Likert scale questionnaire"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "30"
+    ],
     "stimuli": [
       "Navigation icons from AutoNavi mobile map, presented in five layout conditions:",
       "G0: Single color (Red, Green, Blue)",
@@ -6121,7 +6251,9 @@ export const data: readonly StudyRow[] = [
       "Visual search tasks: Using adaptive legend for grid value interpretation",
       "Cognitive processing tasks: Measuring cognitive load and gaze metrics (fixation duration, saccade amplitude)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "31"
+    ],
     "stimuli": [
       "Raster maps with three layers representing different years and thematic contents:",
       "Land use type (Discrete symbology)",
@@ -6188,7 +6320,9 @@ export const data: readonly StudyRow[] = [
       "Area selection tasks: Selecting polygons by thematic attributes or spatial constraints",
       "Cognitive processing tasks: Measuring cognitive load and gaze metrics (fixation duration, fixation frequency, saccade amplitude)"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "36"
+    ],
     "stimuli": [
       "Fictional maps designed to simulate real-world map-reading tasks without geographical bias",
       "Three target shapes: Point, Line, and Area",
@@ -6256,7 +6390,9 @@ export const data: readonly StudyRow[] = [
       "Visual Attention tasks: Gaze tracking and fixation mapping to understand user attention during DPC exploration",
       "Error Profiling tasks: Estimating gaze measurement accuracy using regular circles of 9 eye-ball markers"
     ],
-    "numberOfParticipants": [],
+    "numberOfParticipants": [
+      "40"
+    ],
     "stimuli": [
       "50 Dynamic Point Clouds (DPCs) from 3 public datasets: VsenseVVDB2, 8i, and Owlii",
       "Three codecs with 3 distortion levels each:",
