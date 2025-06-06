@@ -6,7 +6,7 @@
 	let { children } = $props();
 </script>
 
-<div class="m-2 box-border">
+<div class="m-2 sm:m-4 lg:m-6 box-border">
 	{@render children()}
 </div>
 <GlobalTooltip />

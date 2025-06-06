@@ -65,7 +65,7 @@ function getOperatorsForField(field: FilterField): FilterOperator[] {
 }
 </script>
 
-<div class="w-full min-h-[270px]">
+<div class="w-full h-full flex flex-col">
   <!-- Header with matching table style -->
   <div class="w-full border-2 border-blue-700 shadow-lg bg-gradient-to-r from-blue-600 to-blue-700 rounded-t-lg overflow-hidden">
     <div class="px-6 py-4">
@@ -98,8 +98,8 @@ function getOperatorsForField(field: FilterField): FilterOperator[] {
   </div>
 
   <!-- Content area with matching table body border style -->
-  <div class="w-full border-l-2 border-r-2 border-b-2 border-gray-300 shadow-lg bg-white rounded-b-lg overflow-hidden">
-    <div class="p-6">
+  <div class="w-full border-l-2 border-r-2 border-b-2 border-gray-300 shadow-lg bg-white rounded-b-lg overflow-hidden flex-1">
+    <div class="p-6 h-full">
       {#if filterConfig.length === 0}
         <div class="text-center py-8 text-gray-500">
           <svg class="w-12 h-12 mx-auto mb-2 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">

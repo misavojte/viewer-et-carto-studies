@@ -107,50 +107,28 @@ onDestroy(() => {
 </script>
 
 <style>
-	/* Optimized scrollbar styling */
+	/* Simplified scrollbar styling */
 	.custom-scrollbar {
-		scrollbar-width: auto !important;
-		scrollbar-color: #d1d5db #f9fafb;
-		overflow: auto !important;
+		scrollbar-width: thin;
+		scrollbar-color: #9ca3af #f3f4f6;
 	}
 	
 	.custom-scrollbar::-webkit-scrollbar {
-		width: 12px !important;
-		height: 12px !important;
-		display: block !important;
+		width: 8px;
+		height: 8px;
 	}
 	
 	.custom-scrollbar::-webkit-scrollbar-track {
-		background: #f9fafb;
-		border-radius: 6px;
+		background: #f3f4f6;
 	}
 	
 	.custom-scrollbar::-webkit-scrollbar-thumb {
-		background: #d1d5db;
-		border-radius: 6px;
-		border: 1px solid #f9fafb;
-		transition: background-color 0.2s ease;
+		background: #9ca3af;
+		border-radius: 4px;
 	}
 	
 	.custom-scrollbar::-webkit-scrollbar-thumb:hover {
-		background: #9ca3af;
-	}
-	
-	.custom-scrollbar::-webkit-scrollbar-corner {
-		background: #f9fafb;
-	}
-	
-	/* Force scrollbars on touch devices */
-	@media (hover: none) and (pointer: coarse) {
-		.custom-scrollbar {
-			scrollbar-width: auto !important;
-		}
-		
-		.custom-scrollbar::-webkit-scrollbar {
-			width: 12px !important;
-			height: 12px !important;
-			display: block !important;
-		}
+		background: #6b7280;
 	}
 	
 	/* Hidden scrollbar for header */
@@ -164,99 +142,125 @@ onDestroy(() => {
 	}
 </style>
 
-<div class="w-full mb-4">
+<div class="w-full mb-8">
+	<!-- Section Title -->
+	<div class="mb-8 max-w-2xl mx-auto text-center">
+		<h2 class="text-3xl font-bold text-gray-900 mb-2 leading-tight">Apply filter and sorting rules</h2>
+		<p class="text-gray-600 text-lg leading-relaxed">Configure your filtering and sorting preferences below</p>
+	</div>
+	
 	<!-- Sorting and Filtering Configuration - Responsive Layout -->
-	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
-		<!-- Sorting Configuration -->
-		<div>
-			<Sorter 
-				{sortConfig} 
-				onSortChange={handleSortChange}
-			/>
+	<div class="max-w-4xl mx-auto">
+		<div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-stretch">
+			<!-- Filter Configuration -->
+			<div class="h-full">
+				<Filter 
+					{filterConfig} 
+					onFilterChange={handleFilterChange}
+				/>
+			</div>
+			
+			<!-- Sorting Configuration -->
+			<div class="h-full">
+				<Sorter 
+					{sortConfig} 
+					onSortChange={handleSortChange}
+				/>
+			</div>
 		</div>
-		
-		<!-- Filter Configuration -->
-		<div>
-			<Filter 
-				{filterConfig} 
-				onFilterChange={handleFilterChange}
-			/>
-		</div>
+	</div>
+</div>
+
+<!-- Table Header -->
+<div class="w-full mb-8">
+	<div class="mb-6 max-w-2xl mx-auto text-center">
+		<h2 class="text-3xl font-bold text-gray-900 mb-3 leading-tight">Interactive Table</h2>
+		<p class="text-lg text-gray-600 leading-relaxed">
+			Click on any record to view the details. Showing <span class="font-semibold text-gray-900">{processedData.length}</span> out of <span class="font-semibold text-gray-900">{data.length}</span> records
+			{#if processedData.length !== data.length}
+				<span class="text-blue-600 font-semibold ml-1">({data.length - processedData.length} filtered out)</span>
+			{/if}
+		</p>
 	</div>
 </div>
 
 <!-- Table.svelte -->
 <div class="w-full">
+	<div class="overflow-x-auto border-2 border-gray-300 rounded-lg shadow-lg bg-white">
+		<div class="min-w-fit flex justify-center">
+			<div class="inline-block">
+				<!-- Fixed header - NEVER SCROLLS VERTICALLY -->
+				<div id="header-container" class="max-w-fit border-2 border-blue-700 shadow-lg bg-gradient-to-r from-blue-600 to-blue-700 rounded-t-lg overflow-hidden">
+					<div id="header-scroll" class="overflow-x-auto header-scroll-hidden" style="scrollbar-gutter: stable;">
+						<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
+							<thead>
+								<tr>
+									<th class="px-6 py-4 text-left font-bold text-white border-r border-blue-300" style="width: 384px;">
+										Study & Article Title
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 120px;">
+										Experiment
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 120px;">
+										Participants
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
+										Usability
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
+										Interactivity
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
+										Geoviz
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
+										Eye Tracking
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
+										Main Methods
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
+										Experiment Design
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
+										Eye-tracking Device
+									</th>
+									<th class="px-4 py-4 text-center font-bold text-white" style="width: 256px;">
+										Eval. Software
+									</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+				</div>
 
-	<!-- Fixed header - NEVER SCROLLS VERTICALLY -->
-	<div id="header-container" class="max-w-fit border-2 border-blue-700 shadow-lg bg-gradient-to-r from-blue-600 to-blue-700 rounded-t-lg overflow-hidden">
-		<div id="header-scroll" class="overflow-x-auto header-scroll-hidden" style="scrollbar-gutter: stable;">
-			<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
-				<thead>
-					<tr>
-						<th class="px-6 py-4 text-left font-bold text-white border-r border-blue-300" style="width: 384px;">
-							Study & Article Title
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 120px;">
-							Experiment
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 120px;">
-							Participants
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
-							Usability
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
-							Interactivity
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
-							Geoviz
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
-							Eye Tracking
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
-							Main Methods
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
-							Experiment Design
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 256px;">
-							Eye-tracking Device
-						</th>
-						<th class="px-4 py-4 text-center font-bold text-white" style="width: 256px;">
-							Eval. Software
-						</th>
-					</tr>
-				</thead>
-			</table>
-		</div>
-	</div>
-
-	<!-- Scrollable body - ONLY THIS SCROLLS VERTICALLY -->
-	<div class="max-w-fit border-l-2 border-r-2 border-b-2 border-gray-300 shadow-lg bg-white rounded-b-lg overflow-hidden">
-		<div id="body-scroll" class="custom-scrollbar overflow-auto" style="max-height: 80vh; scrollbar-gutter: stable;">
-			<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
-				<tbody class="bg-white">
-					{#each processedData as study, index}
-						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
-							use:modal={{
-								content: { 
-									component: StudyDetailModal, 
-									props: { study } 
-								},
-								config: {
-									title: study.study,
-									size: 'xl',
-									closable: true,
-									backdrop: true
-								}
-							}}>
-							<TableRow {study} {participantPercentiles} />
-						</tr>
-					{/each}
-				</tbody>
-			</table>
+				<!-- Scrollable body - ONLY THIS SCROLLS VERTICALLY -->
+				<div class="max-w-fit border-l-2 border-r-2 border-b-2 border-gray-300 shadow-lg bg-white rounded-b-lg overflow-hidden">
+					<div id="body-scroll" class="custom-scrollbar overflow-auto" style="max-height: 80vh; scrollbar-gutter: stable;">
+						<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
+							<tbody class="bg-white">
+								{#each processedData as study, index}
+									<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
+										use:modal={{
+											content: { 
+												component: StudyDetailModal, 
+												props: { study } 
+											},
+											config: {
+												title: study.study,
+												size: 'xl',
+												closable: true,
+												backdrop: true
+											}
+										}}>
+										<TableRow {study} {participantPercentiles} />
+									</tr>
+								{/each}
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
