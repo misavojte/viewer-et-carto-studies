@@ -2,6 +2,8 @@
 import type { StudyRow } from '../types.js';
 import LikertValue from './LikertValue.svelte';
 import ParticipantsValue from './ParticipantsValue.svelte';
+import BadgeList from './BadgeList.svelte';
+import ExperimentValue from './ExperimentValue.svelte';
 
 interface Props {
   study: StudyRow;
@@ -15,9 +17,6 @@ interface Props {
 }
 
 const { study, participantPercentiles }: Props = $props();
-
-// Join main methods for display
-const mainMethodsText = $derived(study.mainMethods.join(', '));
 </script>
 
 <td class="px-4 py-3 min-w-80 align-middle border-r border-b border-gray-200">
@@ -30,9 +29,7 @@ const mainMethodsText = $derived(study.mainMethods.join(', '));
 </td>
 
 <td class="px-4 py-3 w-24 text-center align-middle border-r border-b border-gray-200">
-  <span class="text-xs text-gray-700 bg-gray-100 px-2 py-1 rounded">
-    {study.studyWithExperiment}
-  </span>
+  <ExperimentValue experimentValue={study.studyWithExperiment} />
 </td>
 
 <td class="px-4 py-3 w-28 text-center align-middle border-r border-b border-gray-200">
@@ -82,6 +79,26 @@ const mainMethodsText = $derived(study.mainMethods.join(', '));
   </div>
 </td>
 
-<td class="px-4 py-3 min-w-48 text-center align-middle border-b border-gray-200">
-  <span class="text-sm text-gray-800">{mainMethodsText}</span>
+<td class="px-4 py-3 min-w-48 align-middle border-r border-b border-gray-200">
+  <BadgeList 
+    items={study.mainMethods}
+    maxItems={3}
+    variant="purple"
+  />
+</td>
+
+<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
+  <BadgeList 
+    items={study.experimentDesign}
+    maxItems={3}
+    variant="blue"
+  />
+</td>
+
+<td class="px-4 py-3 w-64 text-center align-middle border-b border-gray-200">
+  <BadgeList 
+    items={study.eyeTrackingDevices}
+    maxItems={1}
+    variant="green"
+  />
 </td> 

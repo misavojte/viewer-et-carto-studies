@@ -70,8 +70,14 @@ const participantPercentiles = calculateParticipantPercentiles();
         <th class="px-4 py-3 w-32 text-center font-semibold text-gray-700 border-r border-b border-gray-200">
           Eye Tracking
         </th>
-        <th class="px-4 py-3 text-center font-semibold text-gray-700 border-b border-gray-200">
+        <th class="px-4 py-3 text-center font-semibold text-gray-700 border-r border-b border-gray-200">
           Main Methods
+        </th>
+        <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-r border-b border-gray-200">
+          Experiment Design
+        </th>
+        <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-b border-gray-200">
+          Eye-tracking Device
         </th>
       </tr>
     </thead>
