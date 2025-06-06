@@ -3,7 +3,7 @@
  * Multi-line cells (`\n`) are split into trimmed array items.
  * Empty strings yield `undefined`.
  */
-type Likert5 = 1 | 2 | 3 | 4 | 5;
+export type Likert5 = 1 | 2 | 3 | 4 | 5;
 
 export type StudyRow = {
   /** Citation string, e.g. `"Alam et al. (2017)"`. */
