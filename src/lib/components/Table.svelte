@@ -46,52 +46,52 @@ const participantPercentiles = calculateParticipantPercentiles();
 </script>
 
 <div class="w-full">
-  <div class="overflow-auto border border-gray-200 rounded-lg shadow-sm" style="max-height: 90vh;">
-    <table class="w-full min-w-max border-collapse bg-white">
-      <thead class="bg-gray-50 sticky top-0 z-10">
-        <tr>
-          <th class="px-4 py-3 w-96 text-left font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Study & Article Title
-          </th>
-          <th class="px-4 py-3 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Experiment
-          </th>
-          <th class="px-4 py-3 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Participants
-          </th>
-          <th class="px-4 py-3 w-32 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Usability
-          </th>
-          <th class="px-4 py-3 w-32 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Interactivity
-          </th>
-          <th class="px-4 py-3 w-32 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Geoviz
-          </th>
-          <th class="px-4 py-3 w-32 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Eye Tracking
-          </th>
-          <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Main Methods
-          </th>
-          <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Experiment Design
-          </th>
-          <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-r border-b border-gray-200 bg-gray-50">
-            Eye-tracking Device
-          </th>
-          <th class="px-4 py-3 w-64 text-center font-semibold text-gray-700 border-b border-gray-200 bg-gray-50">
-            Eval. Software
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        {#each data as study}
-          <tr class="hover:bg-gray-50 transition-colors">
-            <TableRow {study} {participantPercentiles} />
+    <div class="overflow-x-auto overflow-y-hidden border-2 border-gray-300 rounded-xl shadow-lg bg-white" style="max-height: 90vh;">
+      <table class="w-full min-w-max border-collapse">
+        <thead class="bg-gradient-to-r from-blue-600 to-blue-700 sticky top-0 z-20 shadow-md">
+          <tr>
+            <th class="px-6 py-4 w-96 text-left font-bold text-white border-r border-blue-500 first:rounded-tl-xl">
+              Study & Article Title
+            </th>
+            <th class="px-4 py-4 text-center font-bold text-white border-r border-blue-500">
+              Experiment
+            </th>
+            <th class="px-4 py-4 text-center font-bold text-white border-r border-blue-500">
+              Participants
+            </th>
+            <th class="px-4 py-4 w-32 text-center font-bold text-white border-r border-blue-500">
+              Usability
+            </th>
+            <th class="px-4 py-4 w-32 text-center font-bold text-white border-r border-blue-500">
+              Interactivity
+            </th>
+            <th class="px-4 py-4 w-32 text-center font-bold text-white border-r border-blue-500">
+              Geoviz
+            </th>
+            <th class="px-4 py-4 w-32 text-center font-bold text-white border-r border-blue-500">
+              Eye Tracking
+            </th>
+            <th class="px-4 py-4 w-64 text-center font-bold text-white border-r border-blue-500">
+              Main Methods
+            </th>
+            <th class="px-4 py-4 w-64 text-center font-bold text-white border-r border-blue-500">
+              Experiment Design
+            </th>
+            <th class="px-4 py-4 w-64 text-center font-bold text-white border-r border-blue-500">
+              Eye-tracking Device
+            </th>
+            <th class="px-4 py-4 w-64 text-center font-bold text-white last:rounded-tr-xl">
+              Eval. Software
+            </th>
           </tr>
-        {/each}
-      </tbody>
-    </table>
-  </div>
-</div> 
+        </thead>
+        <tbody class="bg-white overflow-y-auto max-h-[calc(90vh-100px)]">
+          {#each data as study, index}
+            <tr class="hover:bg-blue-50 transition-all duration-200 ease-in-out border-b border-gray-100 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:shadow-sm">
+              <TableRow {study} {participantPercentiles} />
+            </tr>
+          {/each}
+        </tbody>
+      </table>
+    </div>
+  </div> 
