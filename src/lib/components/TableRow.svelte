@@ -19,7 +19,7 @@ interface Props {
 const { study, participantPercentiles }: Props = $props();
 </script>
 
-<td class="px-4 py-3 w-96 align-middle border-r border-b border-gray-200">
+<td class="px-6 py-3 align-middle border-r border-gray-200" style="width: 384px;">
   <div class="flex flex-col">
     <span class="font-medium text-gray-900">
       {study.study}
@@ -28,18 +28,18 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 w-24 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 120px;">
   <ExperimentValue experimentValue={study.studyWithExperiment} />
 </td>
 
-<td class="px-4 py-3 w-28 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 120px;">
   <ParticipantsValue 
     participantValues={study.numberOfParticipants} 
     percentiles={participantPercentiles}
   />
 </td>
 
-<td class="px-4 py-3 w-32 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 128px;">
   <div class="flex justify-center">
     <LikertValue 
       likertValue={study.relevanceUsability} 
@@ -49,7 +49,7 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 w-32 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 128px;">
   <div class="flex justify-center">
     <LikertValue 
       likertValue={study.relevanceInteractivity} 
@@ -59,7 +59,7 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 w-32 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 128px;">
   <div class="flex justify-center">
     <LikertValue 
       likertValue={study.relevanceGeovisualization} 
@@ -69,7 +69,7 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 w-32 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 128px;">
   <div class="flex justify-center">
     <LikertValue 
       likertValue={study.relevanceEyeTracking} 
@@ -79,7 +79,7 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 256px;">
   <BadgeList 
     items={study.mainMethods}
     maxItems={3}
@@ -87,7 +87,7 @@ const { study, participantPercentiles }: Props = $props();
   />
 </td>
 
-<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 256px;">
   <BadgeList 
     items={study.experimentDesign}
     maxItems={3}
@@ -95,7 +95,7 @@ const { study, participantPercentiles }: Props = $props();
   />
 </td>
 
-<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 256px;">
   <BadgeList 
     items={study.eyeTrackingDevices}
     maxItems={1}
@@ -103,7 +103,7 @@ const { study, participantPercentiles }: Props = $props();
   />
 </td>
 
-<td class="px-4 py-3 w-64 text-center align-middle border-b border-gray-200">
+<td class="px-4 py-3 text-center align-middle" style="width: 256px;">
   <BadgeList 
     items={study.evaluationSoftware}
     maxItems={3}
