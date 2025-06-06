@@ -1,5 +1,5 @@
 <!-- Beautiful Horizontal Divider -->
-<div class="flex items-center justify-center my-16">
+<div class="flex items-center justify-center my-20">
   <div class="flex-grow h-px bg-gradient-to-r from-transparent via-gray-300 to-transparent"></div>
   <div class="mx-6">
     <div class="flex items-center justify-center w-12 h-12 bg-gradient-to-r from-blue-600 to-blue-700 rounded-full shadow-lg">
