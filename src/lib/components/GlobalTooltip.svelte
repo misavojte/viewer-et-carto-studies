@@ -7,12 +7,13 @@ const tooltip = $derived($tooltipStore);
 
 // Handle scroll and resize events to update position
 let tooltipElement: HTMLDivElement;
+let targetElement: HTMLElement | null = null;
 
 function updatePosition() {
-  if (!tooltip.visible || !tooltip.targetRect) return;
+  if (!tooltip.visible || !targetElement) return;
   
-  const rect = tooltip.targetRect;
-  tooltipStore.show(tooltip.content, rect as unknown as HTMLElement);
+  const rect = targetElement.getBoundingClientRect();
+  tooltipStore.show(tooltip.content, targetElement);
 }
 
 onMount(() => {
@@ -24,12 +25,26 @@ onMount(() => {
     window.removeEventListener('resize', updatePosition);
   };
 });
+
+// Store reference to target element when tooltip becomes visible
+$effect(() => {
+  if (tooltip.visible && tooltip.targetRect) {
+    // Find the element that matches the stored rect (this is a workaround)
+    // In practice, we should pass the element reference differently
+    targetElement = document.elementFromPoint(
+      tooltip.targetRect.left + tooltip.targetRect.width / 2,
+      tooltip.targetRect.top + tooltip.targetRect.height / 2
+    ) as HTMLElement;
+  } else {
+    targetElement = null;
+  }
+});
 </script>
 
 {#if tooltip.visible}
   <div
     bind:this={tooltipElement}
-    class="fixed z-50 px-3 py-2 text-sm text-white bg-gray-800 rounded shadow-lg pointer-events-none"
+    class="absolute z-50 px-3 py-2 text-sm text-white bg-gray-800 rounded shadow-lg pointer-events-none whitespace-pre-wrap"
     style="left: {tooltip.x}px; top: {tooltip.y + 8}px; transform: translateX(-50%);"
     role="tooltip"
   >
