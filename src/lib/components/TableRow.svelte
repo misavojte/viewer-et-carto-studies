@@ -19,7 +19,7 @@ interface Props {
 const { study, participantPercentiles }: Props = $props();
 </script>
 
-<td class="px-4 py-3 min-w-80 align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 w-96 align-middle border-r border-b border-gray-200">
   <div class="flex flex-col">
     <span class="font-medium text-gray-900">
       {study.study}
@@ -79,7 +79,7 @@ const { study, participantPercentiles }: Props = $props();
   </div>
 </td>
 
-<td class="px-4 py-3 min-w-48 align-middle border-r border-b border-gray-200">
+<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
   <BadgeList 
     items={study.mainMethods}
     maxItems={3}
@@ -95,10 +95,18 @@ const { study, participantPercentiles }: Props = $props();
   />
 </td>
 
-<td class="px-4 py-3 w-64 text-center align-middle border-b border-gray-200">
+<td class="px-4 py-3 w-64 text-center align-middle border-r border-b border-gray-200">
   <BadgeList 
     items={study.eyeTrackingDevices}
     maxItems={1}
     variant="green"
+  />
+</td>
+
+<td class="px-4 py-3 w-64 text-center align-middle border-b border-gray-200">
+  <BadgeList 
+    items={study.evaluationSoftware}
+    maxItems={3}
+    variant="orange"
   />
 </td> 
