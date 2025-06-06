@@ -97,12 +97,12 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
   <!-- Study Information -->
   <div class="pb-6 border-b border-gray-200">
     <h2 class="text-lg font-semibold text-gray-900 mb-4">Study Information</h2>
-    <div class="space-y-3 text-sm">
-      <div>
+    <div class="space-y-3">
+      <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
         <span class="font-medium text-gray-700">Participants:</span>
         <span class="text-gray-600 ml-2">{formatParticipants(study.numberOfParticipants)}</span>
       </div>
-      <div>
+      <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
         <span class="font-medium text-gray-700">Has Experiment:</span>
         <span class="text-gray-600 ml-2">{study.studyWithExperiment}</span>
       </div>
@@ -115,7 +115,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Main Methods</h2>
       <div class="space-y-3">
         {#each study.mainMethods as method}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-gray-100 p-4 rounded-lg border border-gray-200">
             {method}
           </div>
         {/each}
@@ -129,7 +129,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Experiment Design</h2>
       <div class="space-y-3">
         {#each study.experimentDesign as design}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
             {design}
           </div>
         {/each}
@@ -143,7 +143,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Task Types</h2>
       <div class="space-y-3">
         {#each study.taskTypes as task}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-gray-100 p-4 rounded-lg border border-gray-200">
             {task}
           </div>
         {/each}
@@ -157,7 +157,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Eye-tracking Devices</h2>
       <div class="space-y-3">
         {#each study.eyeTrackingDevices as device}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
             {device}
           </div>
         {/each}
@@ -171,7 +171,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Evaluation Software</h2>
       <div class="space-y-3">
         {#each study.evaluationSoftware as software}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-gray-100 p-4 rounded-lg border border-gray-200">
             {software}
           </div>
         {/each}
@@ -185,7 +185,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Stimuli</h2>
       <div class="space-y-3">
         {#each study.stimuli as stimulus}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
             {stimulus}
           </div>
         {/each}
@@ -199,7 +199,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Stimulus Devices</h2>
       <div class="space-y-3">
         {#each study.stimulusDevices as device}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-gray-100 p-4 rounded-lg border border-gray-200">
             {device}
           </div>
         {/each}
@@ -213,7 +213,7 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
       <h2 class="text-lg font-semibold text-gray-900 mb-4">Key Findings</h2>
       <div class="space-y-3">
         {#each study.findings as finding}
-          <div class="text-sm text-gray-700">
+          <div class="text-sm text-gray-700 bg-blue-50 p-4 rounded-lg border border-blue-100">
             {finding}
           </div>
         {/each}
