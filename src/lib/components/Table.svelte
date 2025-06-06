@@ -158,23 +158,52 @@ const participantPercentiles = (() => {
 					</tr>
 				</thead>
 				<tbody class="bg-white">
-					{#each processedData as study, index}
-						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
-							use:modal={{
-								content: { 
-									component: StudyDetailModal, 
-									props: { study } 
-								},
-								config: {
-									title: study.study,
-									size: 'xl',
-									closable: true,
-									backdrop: true
-								}
-							}}>
-							<TableRow {study} {participantPercentiles} />
+					{#if processedData.length === 0}
+						<tr class="bg-gray-50">
+							<td colspan="11" class="px-6 py-12 text-center">
+								<div class="flex flex-col items-center justify-center text-gray-500">
+									<svg class="w-16 h-16 mx-auto mb-4 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+										<path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"/>
+									</svg>
+									<h3 class="text-lg font-medium text-gray-900 mb-2">No studies found</h3>
+									<p class="text-sm text-gray-500 max-w-sm">
+										{#if filterConfig.length > 0}
+											No studies match your current filter criteria. Try adjusting your filters or clearing them to see more results.
+										{:else}
+											No study data is currently available.
+										{/if}
+									</p>
+									{#if filterConfig.length > 0}
+										<button
+											type="button"
+											onclick={() => handleFilterChange([])}
+											class="mt-4 inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-colors duration-200 cursor-pointer"
+										>
+											Clear all filters
+										</button>
+									{/if}
+								</div>
+							</td>
 						</tr>
-					{/each}
+					{:else}
+						{#each processedData as study, index}
+							<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
+								use:modal={{
+									content: { 
+										component: StudyDetailModal, 
+										props: { study } 
+									},
+									config: {
+										title: study.study,
+										size: 'xl',
+										closable: true,
+										backdrop: true
+									}
+								}}>
+								<TableRow {study} {participantPercentiles} />
+							</tr>
+						{/each}
+					{/if}
 				</tbody>
 			</table>
 		</div>

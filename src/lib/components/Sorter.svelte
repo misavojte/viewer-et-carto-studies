@@ -102,18 +102,18 @@ function getAvailableFields(currentRuleId?: string): SortField[] {
       {:else}
         <div class="space-y-3">
           {#each sortConfig as rule, index (rule.id)}
-            <div class="flex items-center gap-3 p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 hover:border-gray-300 hover:shadow-sm transition-all duration-200 ease-in-out">
+            <div class="flex flex-wrap items-center gap-2 p-3 bg-gray-50 border border-gray-200 rounded-lg hover:bg-gray-100 hover:border-gray-300 hover:shadow-sm transition-all duration-200 ease-in-out">
               <!-- Priority indicator -->
-              <div class="flex items-center justify-center w-8 h-8 bg-blue-100 rounded-full text-sm font-semibold text-blue-700">
+              <div class="flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full text-xs font-semibold text-blue-700 flex-shrink-0">
                 {index + 1}
               </div>
 
               <!-- Field selector -->
-              <div class="flex-1 min-w-0">
+              <div class="min-w-[100px] flex-1 max-w-[200px]">
                 <select
                   value={rule.field}
                   onchange={(e) => updateSortRule(rule.id, { field: e.currentTarget.value as SortField })}
-                  class="block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 text-sm cursor-pointer hover:border-gray-400 transition-colors duration-200"
+                  class="block w-full px-2 py-1 border border-gray-300 rounded text-xs cursor-pointer hover:border-gray-400 transition-colors duration-200"
                 >
                   {#each getAvailableFields(rule.id) as field}
                     <option value={field}>{SORT_FIELD_LABELS[field]}</option>
@@ -129,7 +129,7 @@ function getAvailableFields(currentRuleId?: string): SortField[] {
               <button
                 type="button"
                 onclick={() => toggleDirection(rule.id)}
-                class="inline-flex items-center px-3 py-2 border rounded-md text-sm font-medium transition-all duration-200 ease-in-out min-w-[80px] justify-center cursor-pointer hover:shadow-sm hover:scale-105"
+                class="inline-flex items-center px-2 py-1 border rounded text-xs font-medium transition-all duration-200 ease-in-out min-w-[60px] justify-center cursor-pointer hover:shadow-sm"
                 class:border-blue-500={rule.direction === 'ASC'}
                 class:bg-blue-50={rule.direction === 'ASC'}
                 class:text-blue-700={rule.direction === 'ASC'}
@@ -141,7 +141,7 @@ function getAvailableFields(currentRuleId?: string): SortField[] {
                 class:hover:border-gray-400={rule.direction === 'DESC'}
               >
                 <svg 
-                  class="w-4 h-4 mr-1 transition-transform duration-300 ease-in-out origin-center"
+                  class="w-3 h-3 mr-1 transition-transform duration-300 ease-in-out origin-center"
                   class:rotate-180={rule.direction === 'DESC'}
                   fill="none" 
                   stroke="currentColor" 
@@ -156,10 +156,10 @@ function getAvailableFields(currentRuleId?: string): SortField[] {
               <button
                 type="button"
                 onclick={() => removeSortRule(rule.id)}
-                class="inline-flex items-center justify-center w-8 h-8 text-red-400 hover:text-red-600 hover:bg-red-50 rounded-full transition-all duration-200 ease-in-out cursor-pointer hover:scale-110 hover:shadow-sm"
+                class="inline-flex items-center justify-center w-6 h-6 text-red-400 hover:text-red-600 hover:bg-red-50 rounded transition-all duration-200 ease-in-out cursor-pointer flex-shrink-0"
                 aria-label="Remove sort rule"
               >
-                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               </button>
