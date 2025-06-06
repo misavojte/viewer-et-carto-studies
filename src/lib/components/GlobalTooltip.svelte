@@ -44,7 +44,7 @@ $effect(() => {
 {#if tooltip.visible}
   <div
     bind:this={tooltipElement}
-    class="absolute z-50 px-3 py-2 text-sm text-white bg-gray-800 rounded shadow-lg pointer-events-none whitespace-pre-wrap"
+    class="absolute z-100 px-3 py-2 text-sm text-white bg-gray-800 rounded shadow-lg pointer-events-none whitespace-pre-wrap"
     style="left: {tooltip.x}px; top: {tooltip.y + 8}px; transform: translateX(-50%);"
     role="tooltip"
   >

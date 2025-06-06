@@ -1,7 +1,9 @@
 <script lang="ts">
 import { data } from '../data.js';
 import TableRow from './TableRow.svelte';
+import StudyDetailModal from './StudyDetailModal.svelte';
 import { onMount, onDestroy } from 'svelte';
+import { modal } from '../directives/modal.js';
 
 // Memoize percentile calculation to avoid recalculating on every render
 const participantPercentiles = (() => {
@@ -187,7 +189,19 @@ onDestroy(() => {
 			<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
 				<tbody class="bg-white">
 					{#each data as study, index}
-						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out">
+						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
+							use:modal={{
+								content: { 
+									component: StudyDetailModal, 
+									props: { study } 
+								},
+								config: {
+									title: study.study,
+									size: 'xl',
+									closable: true,
+									backdrop: true
+								}
+							}}>
 							<TableRow {study} {participantPercentiles} />
 						</tr>
 					{/each}
