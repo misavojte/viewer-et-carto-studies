@@ -3,20 +3,34 @@ import { data } from '../data.js';
 import TableRow from './TableRow.svelte';
 import StudyDetailModal from './StudyDetailModal.svelte';
 import Sorter from './Sorter.svelte';
+import Filter from './Filter.svelte';
 import { sortStudies } from '../utils/sorting.js';
-import type { SortConfig } from '../types.js';
+import { filterStudies } from '../utils/filtering.js';
+import type { SortConfig, FilterConfig } from '../types.js';
 import { onMount, onDestroy } from 'svelte';
 import { modal } from '../directives/modal.js';
 
 // Sort configuration state using Svelte 5 $state rune
 let sortConfig = $state<SortConfig>([]);
 
-// Computed sorted data using Svelte 5 $derived rune
-const sortedData = $derived(sortStudies(data, sortConfig));
+// Filter configuration state using Svelte 5 $state rune
+let filterConfig = $state<FilterConfig>([]);
+
+// Computed filtered and sorted data using Svelte 5 $derived rune
+const processedData = $derived((() => {
+  // First apply filters, then apply sorting
+  const filtered = filterStudies(data, filterConfig);
+  return sortStudies(filtered, sortConfig);
+})());
 
 // Handle sort configuration changes
 function handleSortChange(newConfig: SortConfig) {
   sortConfig = newConfig;
+}
+
+// Handle filter configuration changes
+function handleFilterChange(newConfig: FilterConfig) {
+  filterConfig = newConfig;
 }
 
 // Memoize percentile calculation to avoid recalculating on every render
@@ -151,11 +165,24 @@ onDestroy(() => {
 </style>
 
 <div class="w-full mb-4">
-	<!-- Sorting Configuration -->
-	<Sorter 
-		{sortConfig} 
-		onSortChange={handleSortChange}
-	/>
+	<!-- Sorting and Filtering Configuration - Responsive Layout -->
+	<div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+		<!-- Sorting Configuration -->
+		<div>
+			<Sorter 
+				{sortConfig} 
+				onSortChange={handleSortChange}
+			/>
+		</div>
+		
+		<!-- Filter Configuration -->
+		<div>
+			<Filter 
+				{filterConfig} 
+				onFilterChange={handleFilterChange}
+			/>
+		</div>
+	</div>
 </div>
 
 <!-- Table.svelte -->
@@ -211,7 +238,7 @@ onDestroy(() => {
 		<div id="body-scroll" class="custom-scrollbar overflow-auto" style="max-height: 80vh; scrollbar-gutter: stable;">
 			<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
 				<tbody class="bg-white">
-					{#each sortedData as study, index}
+					{#each processedData as study, index}
 						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
 							use:modal={{
 								content: { 

@@ -91,4 +91,39 @@ export const SORT_FIELD_LABELS: Record<SortField, string> = {
   relevanceInteractivity: 'Interactivity',
   relevanceGeovisualization: 'Geoviz',
   relevanceEyeTracking: 'Eye Tracking'
+};
+
+// Filtering system types
+export type FilterOperator = 
+  | 'EQUALS'
+  | 'CONTAINS'
+  | 'GREATER_THAN'
+  | 'LESS_THAN'
+  | 'GREATER_THAN_OR_EQUAL'
+  | 'LESS_THAN_OR_EQUAL'
+  | 'NOT_EQUALS'
+  | 'NOT_CONTAINS';
+
+export type FilterField = SortField; // Same fields as sorting
+
+export type FilterRule = {
+  id: string;
+  field: FilterField;
+  operator: FilterOperator;
+  value: string;
+};
+
+export type FilterConfig = FilterRule[];
+
+export const FILTER_FIELD_LABELS: Record<FilterField, string> = SORT_FIELD_LABELS;
+
+export const FILTER_OPERATOR_LABELS: Record<FilterOperator, string> = {
+  EQUALS: 'Equals',
+  CONTAINS: 'Contains',
+  GREATER_THAN: 'Greater than',
+  LESS_THAN: 'Less than',
+  GREATER_THAN_OR_EQUAL: 'Greater than or equal',
+  LESS_THAN_OR_EQUAL: 'Less than or equal',
+  NOT_EQUALS: 'Not equals',
+  NOT_CONTAINS: 'Does not contain'
 }; 
