@@ -59,4 +59,36 @@ export type StudyRow = {
 
   /** Main findings; newline-separated → list. */
   findings: string[];
+};
+
+// Sorting system types
+export type SortDirection = 'ASC' | 'DESC';
+
+export type SortField = 
+  | 'year'
+  | 'articleTitle' 
+  | 'studyWithExperiment'
+  | 'numberOfParticipants'
+  | 'relevanceUsability'
+  | 'relevanceInteractivity'
+  | 'relevanceGeovisualization'
+  | 'relevanceEyeTracking';
+
+export type SortRule = {
+  id: string;
+  field: SortField;
+  direction: SortDirection;
+};
+
+export type SortConfig = SortRule[];
+
+export const SORT_FIELD_LABELS: Record<SortField, string> = {
+  year: 'Publication Year',
+  articleTitle: 'Article Title',
+  studyWithExperiment: 'Experiment',
+  numberOfParticipants: 'Participants',
+  relevanceUsability: 'Usability',
+  relevanceInteractivity: 'Interactivity',
+  relevanceGeovisualization: 'Geoviz',
+  relevanceEyeTracking: 'Eye Tracking'
 }; 

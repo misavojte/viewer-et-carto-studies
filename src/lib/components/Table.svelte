@@ -2,8 +2,22 @@
 import { data } from '../data.js';
 import TableRow from './TableRow.svelte';
 import StudyDetailModal from './StudyDetailModal.svelte';
+import Sorter from './Sorter.svelte';
+import { sortStudies } from '../utils/sorting.js';
+import type { SortConfig } from '../types.js';
 import { onMount, onDestroy } from 'svelte';
 import { modal } from '../directives/modal.js';
+
+// Sort configuration state using Svelte 5 $state rune
+let sortConfig = $state<SortConfig>([]);
+
+// Computed sorted data using Svelte 5 $derived rune
+const sortedData = $derived(sortStudies(data, sortConfig));
+
+// Handle sort configuration changes
+function handleSortChange(newConfig: SortConfig) {
+  sortConfig = newConfig;
+}
 
 // Memoize percentile calculation to avoid recalculating on every render
 const participantPercentiles = (() => {
@@ -136,8 +150,17 @@ onDestroy(() => {
 	}
 </style>
 
+<div class="w-full mb-4">
+	<!-- Sorting Configuration -->
+	<Sorter 
+		{sortConfig} 
+		onSortChange={handleSortChange}
+	/>
+</div>
+
 <!-- Table.svelte -->
 <div class="w-full">
+
 	<!-- Fixed header - NEVER SCROLLS VERTICALLY -->
 	<div id="header-container" class="max-w-fit border-2 border-blue-700 shadow-lg bg-gradient-to-r from-blue-600 to-blue-700 rounded-t-lg overflow-hidden">
 		<div id="header-scroll" class="overflow-x-auto header-scroll-hidden" style="scrollbar-gutter: stable;">
@@ -188,7 +211,7 @@ onDestroy(() => {
 		<div id="body-scroll" class="custom-scrollbar overflow-auto" style="max-height: 80vh; scrollbar-gutter: stable;">
 			<table class="border-separate border-spacing-0" style="table-layout: fixed; width: 2168px;">
 				<tbody class="bg-white">
-					{#each data as study, index}
+					{#each sortedData as study, index}
 						<tr class="border-b border-gray-200 {index % 2 === 0 ? 'bg-gray-50' : 'bg-white'} hover:bg-blue-50 hover:shadow-sm transition-all duration-200 ease-in-out cursor-pointer"
 							use:modal={{
 								content: { 
