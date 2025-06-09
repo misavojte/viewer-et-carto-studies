@@ -1,38 +1,57 @@
-# sv
+# Eye-tracking Studies on Interactive Geovisualisations - Data Viewer
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+An interactive web application that accompanies the scoping review *"Scoping Review of Eye-Tracking Studies on Usability of Interactive Geovisualisations"*. This tool provides an accessible overview of 87 peer-reviewed studies included in the review.
 
-## Creating a project
+## What it does
 
-If you're seeing this, you've probably already done this step. Congrats!
+This application presents an interactive table where users can:
+- **Explore** 87 studies with detailed metadata including methods, participants, and findings
+- **Filter and sort** studies by various criteria (year, relevance ratings, methodology, etc.)
+- **Search** through study characteristics to find relevant research
+- **View** expert-assigned relevance ratings across four dimensions:
+  - Usability evaluation
+  - Interactivity  
+  - Geovisualisation
+  - Eye-tracking
 
+The goal is to help researchers, designers, and practitioners explore the current state of empirical evidence in this interdisciplinary domain.
+
+## Data Source
+
+The application processes data from `input/table_studies.xlsx` - a structured dataset of the reviewed studies. A data generation script converts this Excel file into TypeScript data for the web application.
+
+## Development
+
+Install dependencies:
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+npm install
 ```
 
-## Developing
+Generate the data from the Excel file:
+```bash
+npm run generate-data
+```
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
+Start the development server:
 ```bash
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
-
-To create a production version of your app:
+## Building for Production
 
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
+```bash
+npm run preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+## Technical Stack
+
+- **SvelteKit** - Web application framework
+- **TypeScript** - Type-safe development
+- **Tailwind CSS** - Styling and responsive design
+- **Vite** - Build tool and development server
+- **xlsx** - Excel file processing for data generation
