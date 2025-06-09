@@ -62,8 +62,8 @@ const { study, participantPercentiles }: Props = $props();
 <td class="px-4 py-3 text-center align-middle border-r border-gray-200" style="width: 128px;">
   <div class="flex justify-center">
     <LikertValue 
-      likertValue={study.relevanceGeovisualization} 
-      label="Geovisualization Relevance"
+      likertValue={study.relevanceGeovisualisation} 
+      label="Geovisualisation Relevance"
       tailwindCss="w-24 h-4"
     />
   </div>

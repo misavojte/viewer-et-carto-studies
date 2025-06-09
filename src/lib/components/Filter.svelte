@@ -51,7 +51,7 @@ function getAvailableFields(currentRuleId?: string): FilterField[] {
 
 // Get operators suitable for the selected field
 function getOperatorsForField(field: FilterField): FilterOperator[] {
-  const numericFields: FilterField[] = ['year', 'numberOfParticipants', 'relevanceUsability', 'relevanceInteractivity', 'relevanceGeovisualization', 'relevanceEyeTracking'];
+  const numericFields: FilterField[] = ['year', 'numberOfParticipants', 'relevanceUsability', 'relevanceInteractivity', 'relevanceGeovisualisation', 'relevanceEyeTracking'];
   const textFields: FilterField[] = ['articleTitle', 'studyWithExperiment'];
   
   if (numericFields.includes(field)) {

@@ -25,7 +25,7 @@ export type StudyRow = {
   relevanceInteractivity: Likert5;
 
   /** Relevance to geovisualization on a 1–5 scale (never null). */
-  relevanceGeovisualization: Likert5;
+  relevanceGeovisualisation: Likert5;
 
   /** Relevance to eye-tracking on a 1–5 scale (never null). */
   relevanceEyeTracking: Likert5;
@@ -71,7 +71,7 @@ export type SortField =
   | 'numberOfParticipants'
   | 'relevanceUsability'
   | 'relevanceInteractivity'
-  | 'relevanceGeovisualization'
+  | 'relevanceGeovisualisation'
   | 'relevanceEyeTracking';
 
 export type SortRule = {
@@ -89,7 +89,7 @@ export const SORT_FIELD_LABELS: Record<SortField, string> = {
   numberOfParticipants: 'Participants',
   relevanceUsability: 'Usability',
   relevanceInteractivity: 'Interactivity',
-  relevanceGeovisualization: 'Geoviz',
+  relevanceGeovisualisation: 'Geovis',
   relevanceEyeTracking: 'Eye Tracking'
 };
 

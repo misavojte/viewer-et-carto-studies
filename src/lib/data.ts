@@ -4,12 +4,12 @@ import type { StudyRow } from '$lib/types';
 export const data: readonly StudyRow[] = [
   {
     "study": "Alam et al. (2017)",
-    "articleTitle": "Analyzing Eye-Tracking Information in Visualization and Data Space: From Where on the Screen to What on the Screen",
+    "articleTitle": "analysing Eye-Tracking Information in Visualization and Data Space: From Where on the Screen to What on the Screen",
     "year": 2017,
     "doi": "10.1109/TVCG.2016.2535340",
     "relevanceUsability": 3,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 2,
+    "relevanceGeovisualisation": 2,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "eye-tracking"
@@ -50,7 +50,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/978-3-319-58562-8_27",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 1,
+    "relevanceGeovisualisation": 1,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking combined with retrospective think-aloud (RTA) protocol"
@@ -93,7 +93,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/13658816.2017.1334896",
     "relevanceUsability": 3,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking integrated with computer vision techniques for real-time gaze-to-object mapping in outdoor environments"
@@ -125,7 +125,7 @@ export const data: readonly StudyRow[] = [
       "Demonstrated the feasibility of GAIN-LBS for tourist assistance by accurately identifying objects (e.g., buildings) in city panoramas.",
       "Achieved high recall rates (>99%) for correctly mapped gazes with minimal buffering.",
       "Performance was robust across different head movement speeds and weather conditions using ORB and CenSurE-BRIEF feature extractors.",
-      "The system provides a qualitative way to analyze user gaze behavior in outdoor environments, opening new possibilities for GeoHCI applications."
+      "The system provides a qualitative way to analyse user gaze behaviour in outdoor environments, opening new possibilities for GeoHCI applications."
     ]
   },
   {
@@ -135,7 +135,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1553/GISCIENCE2019_01_S19",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Eye-tracking (for Austrian participants) combined with a qualitative survey and observational analysis",
@@ -179,7 +179,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/00087041.2020.1842143",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Eye-tracking (for Austrian participants) combined with a qualitative survey, observational analysis, and think-aloud protocol",
@@ -224,7 +224,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1016/j.daach.2019.e00127",
     "relevanceUsability": 3,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "User Interaction Analysis (based on user engagement with the Walkable Mixed Reality Map)",
@@ -270,7 +270,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3098279.3098543",
     "relevanceUsability": 4,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 3,
+    "relevanceGeovisualisation": 3,
     "relevanceEyeTracking": 3,
     "mainMethods": [
       "Eye-tracking (to analyse gaze distribution and visual attention)",
@@ -324,7 +324,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.5194/isprs-archives-XLVI-2-W1-2022-89-2022",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (for visual attention analysis and creating three-dimensional heatmaps)",
@@ -378,7 +378,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1109/TVCG.2015.2467871",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 2,
+    "relevanceGeovisualisation": 2,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention and gaze patterns)",
@@ -432,7 +432,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2857491.2857523",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 2,
+    "relevanceGeovisualisation": 2,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention and cognitive processes)",
@@ -487,7 +487,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi7060209",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention and user interaction strategies)",
@@ -546,7 +546,7 @@ export const data: readonly StudyRow[] = [
     "year": 2018,
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention, gaze patterns, and usage behaviour)",
@@ -611,7 +611,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/07370024.2014.924412",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (using benchmark tasks and user interviews)",
@@ -682,7 +682,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/s10707-016-0283-9",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (using expert feedback and qualitative assessment)",
@@ -741,7 +741,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/978-3-319-59424-8_21",
     "relevanceUsability": 3,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 2,
+    "relevanceGeovisualisation": 2,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to collect visual attention and eye movement data)",
@@ -801,7 +801,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3317960.3321617",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 1,
+    "relevanceGeovisualisation": 1,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to collect visual attention and interaction data)",
@@ -873,7 +873,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3448017.3457377",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 3,
+    "relevanceGeovisualisation": 3,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to collect visual attention and gaze data)",
@@ -958,7 +958,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1559/152304009787340197",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention, gaze patterns, and cognitive processing)",
@@ -1037,7 +1037,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.5194/isprsannals-III-2-113-2016",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (as an input modality for panning and zooming in geospatial interfaces)",
@@ -1118,7 +1118,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi9070412",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse visual attention, fixation patterns, and gaze sequences)",
@@ -1201,7 +1201,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/978-3-030-50726-8_54",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure cognitive load, fixation duration, saccadic amplitude, and visual attention)",
@@ -1281,7 +1281,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/13658816.2022.2032080",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure cognitive load, fixation duration, saccadic amplitude, and visual attention)",
@@ -1358,7 +1358,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1179/1743277411Y.0000000020",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (to evaluate the effectiveness and acceptability of spatial analysis tools)",
@@ -1430,7 +1430,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3138/carto.49.2.1455",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (to evaluate map usability and user performance)",
@@ -1504,13 +1504,13 @@ export const data: readonly StudyRow[] = [
     "year": 2015,
     "relevanceUsability": 4,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, fixation duration, and fixation count)",
       "Usability Testing (to evaluate the effectiveness and user perception of 3D historical models)",
       "Comparative Analysis (comparing three visualization types: Cadastral Map, Orthophotomap, and 3D Model)",
-      "Areas of Interest (AOI) Analysis (to analyze attention allocation and fixation transitions)"
+      "Areas of Interest (AOI) Analysis (to analyse attention allocation and fixation transitions)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -1562,7 +1562,7 @@ export const data: readonly StudyRow[] = [
       "Cognitive and Design Insights:",
       "3D Visualizations support spatial cognition by providing a realistic and coherent visual context.",
       "2D Orthophotomaps require higher cognitive transformation and mental rotation, leading to increased cognitive load.",
-      "Recommendations for Historical Geovisualization Design:",
+      "Recommendations for Historical Geovisualisation Design:",
       "Use 3D Models for historical reconstruction and educational purposes to enhance spatial cognition and visual memory.",
       "Use Cadastral Maps for simple visual comparisons but avoid them for building identification tasks.",
       "Avoid using Orthophotomaps for spatial reasoning tasks due to higher cognitive demands.",
@@ -1572,7 +1572,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Virtual Heritage and Education: Enhancing historical education and cultural awareness through immersive 3D experiences.",
       "Spatial Cognition Research: Investigating cognitive processes involved in 3D spatial perception and wayfinding.",
-      "Geovisualization Design: Improving usability and user experience for interactive historical maps and virtual reconstructions."
+      "Geovisualisation Design: Improving usability and user experience for interactive historical maps and virtual reconstructions."
     ]
   },
   {
@@ -1582,7 +1582,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1371/journal.pone.0181818",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to analyse gaze trajectories and visual attention)",
@@ -1641,7 +1641,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Spatial Visual Interfaces: Enhancing usability by understanding gaze-mouse coordination.",
       "Human-Computer Interaction (HCI): Improving interface design using dynamic interaction insights.",
-      "Geovisualization and Cartography: Optimising route tracing and map navigation tasks.",
+      "Geovisualisation and Cartography: Optimising route tracing and map navigation tasks.",
       "Recommendations for Interface Design:",
       "Design interfaces that naturally support gaze-mouse coordination to reduce cognitive load.",
       "Use implicit gaze input rather than explicit gaze control to maintain natural interaction.",
@@ -1660,7 +1660,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3233/FAIA220744",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 1,
+    "relevanceGeovisualisation": 1,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure cognitive load, fixation count, and gaze patterns)",
@@ -1743,13 +1743,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/app10041446",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure cognitive load, fixation count, scanpath length, and visual attention)",
       "Usability Testing (to evaluate the effectiveness and cognitive efficiency of the QGIS Processing Modeler)",
       "Comparative Analysis (using the Physics of Notations theory for assessing visual vocabulary)",
-      "Areas of Interest (AOI) Analysis (to analyze attention allocation and fixation transitions)"
+      "Areas of Interest (AOI) Analysis (to analyse attention allocation and fixation transitions)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -1826,7 +1826,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1559/1523040639298",
     "relevanceUsability": 4,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (to evaluate the effectiveness and efficiency of dynamic map symbols)",
@@ -1905,7 +1905,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi7070281",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure cognitive load, fixation duration, fixation count, and time to first fixation)",
@@ -1965,7 +1965,7 @@ export const data: readonly StudyRow[] = [
       "Color gradients were preferred over line thicknesses for representing flow volume.",
       "Applications and Use Cases:",
       "Flow Maps: Improving usability for spatial trajectory visualization, migration maps, transportation networks, and social communication flows.",
-      "Geovisualization Design: Guiding the selection of visual variables for effective flow maps.",
+      "Geovisualisation Design: Guiding the selection of visual variables for effective flow maps.",
       "Recommendations for Flow Map Design:",
       "Use curved lines to reduce overlaps and intersections and improve visual clarity.",
       "Use color gradients rather than line thickness to represent flow volume for better cognitive efficiency.",
@@ -1985,7 +1985,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/23729333.2023.2189064",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to understand map user behaviour, visual attention, and cognitive processing)",
@@ -2029,7 +2029,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Map Usability Testing: Optimising cartographic interfaces for better user experience and usability.",
       "Cognitive Processing Research: Understanding cognitive load and visual attention in geovisualizations.",
-      "Geovisualization Design: Improving symbolization, layout, and interactivity in cartographic products.",
+      "Geovisualisation Design: Improving symbolization, layout, and interactivity in cartographic products.",
       "The study highlights emerging trends in eye-tracking research:",
       "Multimodal Integration (combining eye-tracking with EEG and GSR for deeper cognitive insights)",
       "Advanced Data Analysis Techniques (e.g., machine learning for pattern recognition in gaze data)",
@@ -2048,7 +2048,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2785830.2785873",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture gaze direction and trigger navigation feedback)",
@@ -2128,7 +2128,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3317959.3321491",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention and implicit POI tracking)",
@@ -2212,7 +2212,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2957265.2962659",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention and trigger adaptive interface changes)",
@@ -2287,7 +2287,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/s10707-019-00344-3",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture gaze data on dynamic cartographic maps)",
@@ -2320,7 +2320,7 @@ export const data: readonly StudyRow[] = [
       "FeaturEyeTrack System for real-time matching of gaze data with map features",
       "Mapbox Vector Tiles with geospatial data and dynamic rendering",
       "Three Map Tasks:",
-      "Focused Search (finding restaurants by analyzing POI icons)",
+      "Focused Search (finding restaurants by analysing POI icons)",
       "Focused Search with Interaction (zooming and panning to find the most northern village on Niue island)",
       "Route Planning (finding the shortest route between two points while naming all streets along the route)"
     ],
@@ -2330,7 +2330,7 @@ export const data: readonly StudyRow[] = [
       "Mapbox Web Map with vector tile-based rendering and dynamic cartographic features"
     ],
     "findings": [
-      "FeaturEyeTrack significantly improved the accuracy and efficiency of analyzing visual attention on dynamic interactive maps:",
+      "FeaturEyeTrack significantly improved the accuracy and efficiency of analysing visual attention on dynamic interactive maps:",
       "Automatic matching of gaze data with map features reduced manual annotation time.",
       "High accuracy in matching fixations with POIs, street names, and labels in real time.",
       "Comparison with Traditional Methods:",
@@ -2370,13 +2370,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/13658816.2016.1191636",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
-      "Eye-tracking (to capture visual attention and analyze how users interact with a CMV tool)",
+      "Eye-tracking (to capture visual attention and analyse how users interact with a CMV tool)",
       "Usability Testing (combining eye-tracking data with usability metrics like response time and accuracy)",
       "Comparative Analysis (comparing the use of maps, PCPs, and tables for different types of tasks)",
-      "Areas of Interest (AOI) Analysis (to analyze attention allocation and fixation transitions)",
+      "Areas of Interest (AOI) Analysis (to analyse attention allocation and fixation transitions)",
       "Sequence Alignment Analysis (SAA) (to identify patterns in visual behavior)"
     ],
     "studyWithExperiment": "yes",
@@ -2434,7 +2434,7 @@ export const data: readonly StudyRow[] = [
       "Participants appreciated the freedom to choose between visualization methods, allowing them to adapt strategies based on task requirements.",
       "Dynamic linking and brushing between views enhanced cognitive mapping and task efficiency.",
       "Applications and Use Cases:",
-      "Geovisualization Tools: Supporting analytical tasks in hazard vulnerability analysis, urban planning, and spatial decision-making.",
+      "Geovisualisation Tools: Supporting analytical tasks in hazard vulnerability analysis, urban planning, and spatial decision-making.",
       "Interactive Dashboards: Applying CMV tools for data analysis and exploration in scientific research and public administration.",
       "Recommendations for CMV Tool Design:",
       "Provide dynamic linking and brushing functionalities to enhance cognitive efficiency.",
@@ -2452,15 +2452,15 @@ export const data: readonly StudyRow[] = [
   },
   {
     "study": "Golebiowska et al. (2020)",
-    "articleTitle": "Breaking the Eyes: How Do Users Get Started with a Coordinated and Multiple View Geovisualization Tool?",
+    "articleTitle": "Breaking the Eyes: How Do Users Get Started with a Coordinated and Multiple View Geovisualisation Tool?",
     "year": 2020,
     "doi": "10.1080/00087041.2019.1660513",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
-      "Eye-tracking (to capture visual attention and analyze how users interact with a CMV tool)",
+      "Eye-tracking (to capture visual attention and analyse how users interact with a CMV tool)",
       "Usability Testing (combining eye-tracking data with usability metrics like fixation duration and time to first fixation)",
       "Interaction Logs (to capture user interactions with dynamic linking and brushing)",
       "Think-Aloud Protocols (to understand user cognitive processes and problem-solving strategies)"
@@ -2502,7 +2502,7 @@ export const data: readonly StudyRow[] = [
     ],
     "findings": [
       "Dynamic Linking and Brushing:",
-      "66% of participants discovered dynamic linking spontaneously, but the rest continued to analyze views separately.",
+      "66% of participants discovered dynamic linking spontaneously, but the rest continued to analyse views separately.",
       "Dynamic linking significantly enhanced usability once discovered, helping users perceive the tool as less complex.",
       "Visual Attention Analysis:",
       "PCP attracted the most attention with the shortest time to first fixation, followed by the Map and Table views.",
@@ -2523,7 +2523,7 @@ export const data: readonly StudyRow[] = [
       "PCP was rated as the most confusing but effective for multivariate analysis once dynamic linking was understood.",
       "Participants suggested better visual explanations and more intuitive labels to improve learnability.",
       "Applications and Use Cases:",
-      "Geovisualization Tools: Supporting exploratory data analysis and spatial decision-making.",
+      "Geovisualisation Tools: Supporting exploratory data analysis and spatial decision-making.",
       "Educational Tools: Applying CMV tools for teaching geography and spatial analysis.",
       "Recommendations for CMV Tool Design:",
       "Provide clear explanations for dynamic linking and brushing.",
@@ -2542,16 +2542,16 @@ export const data: readonly StudyRow[] = [
   },
   {
     "study": "Herman at al. (2017)",
-    "articleTitle": "Eye-tracking Analysis of Interactive 3D Geovisualization",
+    "articleTitle": "Eye-tracking Analysis of Interactive 3D Geovisualisation",
     "year": 2017,
     "doi": "10.16910/jemr.10.3.2",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention and gaze patterns on 3D geovisualizations)",
-      "3DgazeR Framework (for calculating 3D gaze coordinates and analyzing interactive 3D models)",
+      "3DgazeR Framework (for calculating 3D gaze coordinates and analysing interactive 3D models)",
       "Comparative Analysis (comparing different visualization techniques: 3D raw data, 3D scanpath, 3D attention map, animation, and Z coordinate variation graph)",
       "Usability Testing (to evaluate the effectiveness and cognitive efficiency of 3D geovisualizations)"
     ],
@@ -2617,10 +2617,10 @@ export const data: readonly StudyRow[] = [
       "Participants preferred Variant B for its realistic representation and better depth perception.",
       "Variant A was perceived as more abstract and less intuitive for spatial orientation tasks.",
       "Applications and Use Cases:",
-      "3D Geovisualization: Enhancing usability and cognitive efficiency for geographic information systems (GIS).",
+      "3D Geovisualisation: Enhancing usability and cognitive efficiency for geographic information systems (GIS).",
       "Virtual Reality and AR: Applying 3D gaze data for immersive geospatial exploration.",
       "Cartographic Education: Using interactive 3D geovisualizations for teaching spatial cognition.",
-      "Recommendations for 3D Geovisualization Design:",
+      "Recommendations for 3D Geovisualisation Design:",
       "Use 3D attention maps for aggregating visual attention in multiscale geovisualizations.",
       "Implement interactive transparency controls to enhance depth perception and cognitive mapping.",
       "Design gaze-adaptive 3D interfaces to reduce cognitive load and improve usability.",
@@ -2641,13 +2641,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/00087041.2019.1631008",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (to evaluate user preferences and effectiveness of button placements)",
       "Comparative Analysis (comparing button placements and designs across six popular web mapping services)",
       "Online Survey (to gather user preferences for the number and placement of buttons)",
-      "Graphical Analysis (analyzing graphical designs of buttons across web mapping services)"
+      "Graphical Analysis (analysing graphical designs of buttons across web mapping services)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -2705,7 +2705,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Mobile Map Applications: Improving usability with optimal button placements and intuitive design.",
       "Web Mapping Services: Applying user-centered design principles for enhanced user experience.",
-      "Geovisualization Design: Guiding UI/UX design for interactive cartographic products.",
+      "Geovisualisation Design: Guiding UI/UX design for interactive cartographic products.",
       "Recommendations for Mobile Map Design:",
       "Place buttons in bottom corners to optimize usability for one-handed navigation.",
       "Use consistent graphical designs to enhance button recognizability and usability.",
@@ -2730,7 +2730,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1016/j.aei.2021.101364",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention, gaze patterns, and spatial navigation)",
@@ -2763,7 +2763,7 @@ export const data: readonly StudyRow[] = [
       "3D Objects with Geometric Features:",
       "Controlled Spherical Model (with convex and concave squares, circular and cross features)",
       "Stanford Bunny Model (for case study on object attention)",
-      "Apple iPhone Model (to analyze attention on geometric design features)",
+      "Apple iPhone Model (to analyse attention on geometric design features)",
       "Virtual Space System:",
       "2D Flat Panel Display (for initial exploration)",
       "Virtual Reality Environment using HTC Vive (for immersive navigation and interaction)",
@@ -2793,7 +2793,7 @@ export const data: readonly StudyRow[] = [
       "Participants preferred the HTC Vive VR environment for its natural interaction and immersive navigation experience.",
       "Hands-free gaze interaction was rated as more intuitive and efficient than traditional mouse input.",
       "Applications and Use Cases:",
-      "3D Geovisualization: Enhancing usability and cognitive efficiency for 3D geospatial models.",
+      "3D Geovisualisation: Enhancing usability and cognitive efficiency for 3D geospatial models.",
       "Virtual and Augmented Reality: Applying 3D gaze data for immersive geospatial exploration.",
       "Human-Computer Interaction (HCI): Developing gaze-based adaptive interfaces for natural user experiences.",
       "Recommendations for 3D Interface Design:",
@@ -2817,7 +2817,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1016/j.apergo.2016.12.016",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention and cognitive load)",
@@ -2912,7 +2912,7 @@ export const data: readonly StudyRow[] = [
     "year": 2024,
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention, gaze patterns, and areas of interest)",
@@ -2985,7 +2985,7 @@ export const data: readonly StudyRow[] = [
       "HCI and UX Design: Applying EEG and eye-tracking data for user-centered design and cognitive feedback.",
       "Recommendations for 3D Visualization Design:",
       "Use 3D heatmaps to visualize gaze concentration and emotional states in dynamic environments.",
-      "Implement time-series synchronization to analyze cognitive load and emotional responses over time.",
+      "Implement time-series synchronisation to analyse cognitive load and emotional responses over time.",
       "Design adaptive architectural elements that respond to cognitive and emotional states in real-time.",
       "Cognitive and Design Insights:",
       "3D geovisualization effectively supports spatial cognition by integrating gaze patterns and emotional responses.",
@@ -3004,7 +3004,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.5194/isprsarchives-XLI-B2-663-2016",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "3D Virtual Environment Interaction (to evaluate cognitive workload, situation awareness, and collaborative decision-making)",
@@ -3017,7 +3017,7 @@ export const data: readonly StudyRow[] = [
       "Not applicable"
     ],
     "eyeTrackingDevices": [
-      "Not specified (Discusses general usage of eye-tracking for analyzing visual attention and spots of interest)"
+      "Not specified (Discusses general usage of eye-tracking for analysing visual attention and spots of interest)"
     ],
     "evaluationSoftware": [
       "Not specified (Mentions general usage of virtual environments and 3D geovisualization tools)"
@@ -3033,7 +3033,7 @@ export const data: readonly StudyRow[] = [
     "stimuli": [
       "3D Virtual Environments:",
       "Multi-User Virtual Environments (MUVEs) for collaborative decision-making",
-      "3D Maps and Geovisualizations for spatial awareness and cognitive workload analysis",
+      "3D Maps and Geovisualisations for spatial awareness and cognitive workload analysis",
       "Avatars and Virtual Agents for interactive collaboration and communication",
       "Collaborative Interaction Scenarios:",
       "Crisis Management (e.g., emergency response and disaster management)",
@@ -3042,7 +3042,7 @@ export const data: readonly StudyRow[] = [
     "stimulusDevices": [
       "3D Virtual Environment Platforms (e.g., Unity 3D, VRECKO)",
       "Multi-User Collaborative Systems for virtual interactions",
-      "Potential Use of Eye-Tracking and MoCap for analyzing visual attention and motor activity"
+      "Potential Use of Eye-Tracking and MoCap for analysing visual attention and motor activity"
     ],
     "findings": [
       "3D Virtual Environments (VEs) are highly effective for collaborative decision-making and cognitive workload analysis, especially in high-risk and spatially complex tasks.",
@@ -3057,7 +3057,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Crisis Management and Disaster Response: Supporting collaborative decision-making and real-time spatial awareness.",
       "Aviation and Traffic Control: Enhancing situation awareness and cognitive efficiency in high-risk environments.",
-      "Geovisualization Design: Applying 3D geovisualizations for spatial decision support and collaborative tasks.",
+      "Geovisualisation Design: Applying 3D geovisualizations for spatial decision support and collaborative tasks.",
       "Recommendations for 3D VE Design:",
       "Implement dynamic interactions and immersive geovisualizations to enhance cognitive mapping and spatial cognition.",
       "Use avatars and virtual agents to enhance social presence and communication effectiveness.",
@@ -3079,7 +3079,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/23729333.2022.2150379",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture gaze patterns and visual attention during geovisual exploration)",
@@ -3129,9 +3129,9 @@ export const data: readonly StudyRow[] = [
       "GAIMS reduces cognitive load by highlighting relevant features, allowing users to focus on areas of interest.",
       "Applications and Use Cases:",
       "Geovisual Exploration: Assisting users in discovering unknown patterns and exploring vector geospatial data.",
-      "Dynamic Geovisualization: Applying gaze-aware adaptive visualization for interactive map systems.",
+      "Dynamic Geovisualisation: Applying gaze-aware adaptive visualization for interactive map systems.",
       "Human-Computer Interaction (HCI): Developing user-centered geovisualizations that adapt to cognitive behavior.",
-      "Recommendations for Gaze-Aware Geovisualization:",
+      "Recommendations for Gaze-Aware Geovisualisation:",
       "Implement real-time gaze tracking for adaptive visualization and attention-driven geovisual exploration.",
       "Use machine learning for clustering vector features and dynamic pattern recognition.",
       "Design gaze-aware interfaces that personalize user experience and reduce cognitive overload.",
@@ -3152,7 +3152,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2525314.2525467",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture eye movements and recognize activities on cartographic maps)",
@@ -3250,7 +3250,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/13875868.2016.1254634",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention, gaze patterns, and cognitive processing in spatial tasks)",
@@ -3298,7 +3298,7 @@ export const data: readonly StudyRow[] = [
       "Scanpath analysis and fixation duration can reveal cognitive strategies in navigation and wayfinding.",
       "Eye-Tracking for Spatial Research:",
       "Eye-tracking has been extensively used in:",
-      "Wayfinding and Navigation: Analyzing orientation, route choice, and landmark recognition.",
+      "Wayfinding and Navigation: analysing orientation, route choice, and landmark recognition.",
       "Cartography and Geo-Visualizations: Evaluating cognitive load, map usability, and information acquisition.",
       "Human-Computer Interaction (HCI): Developing gaze-based interfaces for adaptive geovisualizations.",
       "Gaze-Based Interaction and HCI:",
@@ -3337,7 +3337,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.24425/gac.2019.126088",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Literature Review (systematic review of eye-tracking studies in cartographic research)",
@@ -3367,7 +3367,7 @@ export const data: readonly StudyRow[] = [
       "Animated Maps (e.g., dynamic cartographic visualizations)",
       "Interactive Maps and Web GIS (e.g., interactive geovisualization tools)",
       "Multimedia Maps (e.g., maps combined with multimedia elements)",
-      "Geovisualization Elements:",
+      "Geovisualisation Elements:",
       "Cartographic Symbolization (e.g., point symbols, lines, polygons)",
       "Visual Variables (e.g., color, size, orientation)",
       "Dynamic Variables (e.g., duration, rate of change)",
@@ -3425,13 +3425,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.5593/sgem2015B21",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture visual attention and cognitive processing in GIS interfaces)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of GIS tasks)",
       "Comparative Analysis (comparing Esri ArcGIS and QGIS interfaces for task performance)",
-      "Areas of Interest (AOI) Analysis (to analyze attention allocation and fixation durations on GIS interface elements)"
+      "Areas of Interest (AOI) Analysis (to analyse attention allocation and fixation durations on GIS interface elements)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -3445,7 +3445,7 @@ export const data: readonly StudyRow[] = [
       "SMI BeGaze for AOI analysis and interactive stimulus recording"
     ],
     "taskTypes": [
-      "Overlay Analysis with Buffer (e.g., analyzing water areas in case of a train accident)",
+      "Overlay Analysis with Buffer (e.g., analysing water areas in case of a train accident)",
       "Creation of Thematic Map (e.g., mapping a railway network)",
       "Processing Raster Data (e.g., automatic digitization of raster images)",
       "Querying Spatial Data (e.g., selecting municipalities by population count)",
@@ -3488,7 +3488,7 @@ export const data: readonly StudyRow[] = [
       "ArcGIS was perceived as more complex and time-consuming due to fragmented tool placement.",
       "Applications and Use Cases:",
       "GIS Education: Incorporating eye-tracking for usability evaluation in geospatial training and learning environments.",
-      "Geovisualization Design: Applying AOI analysis for evidence-based UI/UX design in GIS software.",
+      "Geovisualisation Design: Applying AOI analysis for evidence-based UI/UX design in GIS software.",
       "Recommendations for GIS Interface Design:",
       "Place frequently used tools in prominent and consistent locations to reduce cognitive load.",
       "Design context-aware toolbars to improve workflow efficiency and visual attention allocation.",
@@ -3510,7 +3510,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3290605.3300721",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to capture gaze patterns and adapt audio content in real-time)",
@@ -3606,13 +3606,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2801040.2801061",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of radial geovisualization)",
       "Usability Testing (to evaluate effectiveness and interactivity of the radial visualization approach)",
       "Comparative Analysis (comparing radial visualization with traditional methods for spatiotemporal data exploration)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -3672,10 +3672,10 @@ export const data: readonly StudyRow[] = [
       "The polar coordinate-based fisheye view was highlighted as a useful interaction for focusing on detailed patterns.",
       "Cluster Rings were rated as the most useful element for comparing spatiotemporal patterns.",
       "Applications and Use Cases:",
-      "Spatiotemporal Geovisualization: Supporting climate change analysis, environmental monitoring, and spatial decision-making.",
-      "Dynamic Geovisualization: Applying the radial layout for multi-dimensional data exploration.",
+      "Spatiotemporal Geovisualisation: Supporting climate change analysis, environmental monitoring, and spatial decision-making.",
+      "Dynamic Geovisualisation: Applying the radial layout for multi-dimensional data exploration.",
       "Visual Analytics: Integrating the radial approach with interactive analytics tools for data-driven decision support.",
-      "Recommendations for Radial Geovisualization:",
+      "Recommendations for Radial Geovisualisation:",
       "Use sector-based ring bands for temporal pattern visualization and cluster rings for spatiotemporal comparisons.",
       "Implement polar coordinate-based fisheye views for focus+context interactions.",
       "Enhance the map view with context-aware interactions to improve spatial exploration.",
@@ -3696,13 +3696,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/s12650-016-0352-z",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of radial geovisualization)",
       "Usability Testing (to evaluate effectiveness and interactivity of the radial visualization approach)",
       "Comparative Analysis (comparing radial visualization with traditional methods for spatiotemporal data exploration)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -3762,10 +3762,10 @@ export const data: readonly StudyRow[] = [
       "The polar coordinate-based fisheye view was highlighted as a useful interaction for focusing on detailed patterns.",
       "Cluster Rings were rated as the most useful element for comparing spatiotemporal patterns.",
       "Applications and Use Cases:",
-      "Spatiotemporal Geovisualization: Supporting climate change analysis, environmental monitoring, and spatial decision-making.",
-      "Dynamic Geovisualization: Applying the radial layout for multi-dimensional data exploration.",
+      "Spatiotemporal Geovisualisation: Supporting climate change analysis, environmental monitoring, and spatial decision-making.",
+      "Dynamic Geovisualisation: Applying the radial layout for multi-dimensional data exploration.",
       "Visual Analytics: Integrating the radial approach with interactive analytics tools for data-driven decision support.",
-      "Recommendations for Radial Geovisualization:",
+      "Recommendations for Radial Geovisualisation:",
       "Use sector-based ring bands for temporal pattern visualization and cluster rings for spatiotemporal comparisons.",
       "Implement polar coordinate-based fisheye views for focus+context interactions.",
       "Enhance the map view with context-aware interactions to improve spatial exploration.",
@@ -3786,13 +3786,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/15230406.2016.1174886",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and navigation strategies)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of 2D and 3D navigation aids)",
       "Comparative Analysis (comparing 2D maps and 3D geo-browsers for navigation performance)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -3849,7 +3849,7 @@ export const data: readonly StudyRow[] = [
       "Participants found photorealistic 3D landmarks useful for spatial orientation and self-localization.",
       "Applications and Use Cases:",
       "Pedestrian Navigation Systems: Enhancing usability and cognitive efficiency by combining 2D maps for spatial knowledge acquisition and 3D geo-browsers for decision-making.",
-      "Geovisualization Design: Applying photorealistic 3D landmarks for cognitive mapping and route guidance.",
+      "Geovisualisation Design: Applying photorealistic 3D landmarks for cognitive mapping and route guidance.",
       "Spatial Decision Support Systems: Using 3D geo-browsers for contextual decision-making at complex intersections.",
       "Recommendations for Navigation System Design:",
       "Use 2D maps for efficient spatial knowledge acquisition and route memorization.",
@@ -3872,13 +3872,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi11020127",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of gaze-based map interactions)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of gaze-based map selection)",
       "Comparative Analysis (comparing different dwell times and buffer sizes for gaze-based selection)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -3939,7 +3939,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Gaze-Based Map Interactions: Supporting hands-free interactions for spatial decision-making and geovisualization.",
       "Assistive Technology: Applying gaze-based interactions for accessibility and human-computer interaction (HCI).",
-      "Dynamic Geovisualization: Implementing dwell time and buffer size adaptation for real-time user interactions.",
+      "Dynamic Geovisualisation: Implementing dwell time and buffer size adaptation for real-time user interactions.",
       "Recommendations for Gaze-Based Map Design:",
       "Use 600 ms dwell time for accurate and efficient gaze-based selection.",
       "Implement 1.5° buffer size for point selection and 0.7° buffer size for polyline selection.",
@@ -3961,14 +3961,14 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1559/1523040639148",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of web mapping navigation)",
-      "Mouse Tracking (to analyze navigation patterns and user interactions)",
+      "Mouse Tracking (to analyse navigation patterns and user interactions)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of different web mapping navigation schemes)",
       "Comparative Analysis (comparing four different navigation methods: pan zoom, double clicking, zoom by rectangle, and wheel zoom)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)"
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -4022,7 +4022,7 @@ export const data: readonly StudyRow[] = [
       "Pan Zoom was criticized for lack of specificity and excessive clicking.",
       "Applications and Use Cases:",
       "Web Mapping Design: Improving usability by integrating Rectangle Zoom and Wheel Zoom.",
-      "Geovisualization Design: Applying user-centered navigation methods for interactive mapping applications.",
+      "Geovisualisation Design: Applying user-centered navigation methods for interactive mapping applications.",
       "HCI and UX Design: Using eye-tracking and mouse metrics for evidence-based UI/UX design.",
       "Recommendations for Web Mapping Design:",
       "Use Rectangle Zoom for accurate navigation and fine-tuning map extent.",
@@ -4046,13 +4046,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/2556288.2557279",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of map zooming interactions)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of collocating vs. translating zoom interfaces)",
       "Comparative Analysis (comparing collocated and translated map interfaces for task performance)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -4107,7 +4107,7 @@ export const data: readonly StudyRow[] = [
       "The Translated Interface was perceived as confusing due to the unexpected relocation of points of interest.",
       "Applications and Use Cases:",
       "Map Navigation Systems: Enhancing usability and cognitive efficiency by implementing collocated zooming interfaces.",
-      "Geovisualization Design: Applying collocation principles to interactive geovisualization tools.",
+      "Geovisualisation Design: Applying collocation principles to interactive geovisualization tools.",
       "HCI and UX Design: Using evidence-based design principles for user-centered interface design.",
       "Recommendations for Map Interface Design:",
       "Use collocated zooming for spatial navigation tasks to reduce cognitive load and improve usability.",
@@ -4130,14 +4130,14 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/s10055-014-0245-1",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Gaze Judgments (to evaluate spatial knowledge acquisition and cognitive processes)",
       "Usability Testing (to compare immersive head-mounted display (HMD) vs. desktop viewing)",
       "Spatial Knowledge Acquisition Analysis (to examine spatial updating and cognitive mapping)",
       "Comparative Analysis (comparing immersive and desktop viewing for spatial updating tasks)",
-      "Circular Statistics (to analyze perceived landmark directions and spatial updating accuracy)"
+      "Circular Statistics (to analyse perceived landmark directions and spatial updating accuracy)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -4205,7 +4205,7 @@ export const data: readonly StudyRow[] = [
       "Applications and Use Cases:",
       "Pedestrian Navigation Systems: Enhancing usability and spatial cognition with immersive panoramic environments.",
       "Virtual Reality and Augmented Reality: Applying spherical panoramic navigation for spatial decision-making and cognitive mapping.",
-      "Geovisualization Design: Developing immersive geovisualizations for spatial knowledge acquisition.",
+      "Geovisualisation Design: Developing immersive geovisualizations for spatial knowledge acquisition.",
       "Recommendations for Immersive Navigation Design:",
       "Use continuous navigation metaphors (e.g., smooth transitions instead of teleportation) to enhance spatial updating.",
       "Combine visual landmarks with egocentric cues for effective spatial cognition.",
@@ -4227,13 +4227,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/978-3-319-07509-9_5",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 3,
+    "relevanceGeovisualisation": 3,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive processing, and usability in web search tasks)",
       "Usability Testing (to evaluate task completion time and navigation patterns)",
       "Comparative Analysis (comparing field dependent (FD), field independent (FI), and field mixed (FM) cognitive styles)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Scan Path and Heat Map Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -4318,7 +4318,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1179/174327708X305120",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability Testing (to evaluate usability and cognitive efficiency of web mapping sites)",
@@ -4400,7 +4400,7 @@ export const data: readonly StudyRow[] = [
       "Multimap was criticized for its cluttered layout and confusing navigation.",
       "Applications and Use Cases:",
       "Web Mapping Design: Enhancing usability and cognitive efficiency by implementing user-centered design principles.",
-      "Geovisualization Design: Applying evidence-based UI/UX improvements for interactive mapping applications.",
+      "Geovisualisation Design: Applying evidence-based UI/UX improvements for interactive mapping applications.",
       "Recommendations for Web Mapping Design:",
       "Use intuitive search logic with clear feedback on search results.",
       "Implement context-aware navigation to reduce cognitive load.",
@@ -4418,17 +4418,17 @@ export const data: readonly StudyRow[] = [
   },
   {
     "study": "Ooms et al. (2010)",
-    "articleTitle": "Analyzing eye movement patterns to improve map design",
+    "articleTitle": "analysing eye movement patterns to improve map design",
     "year": 2010,
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of dynamic interactive maps)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of interactive maps with pan operations)",
       "Qualitative Analysis (using scanpaths, clustering, and aggregation of eye movement data)",
-      "Visual Analytics Toolkit (to visualize scanpaths and analyze spatial patterns in eye movement data)"
+      "Visual Analytics Toolkit (to visualize scanpaths and analyse spatial patterns in eye movement data)"
     ],
     "studyWithExperiment": "yes",
     "experimentDesign": [
@@ -4485,9 +4485,9 @@ export const data: readonly StudyRow[] = [
       "Participants preferred the interactive demo-maps for their dynamic interactions and contextual updating.",
       "Consistent label positions were recommended to reduce cognitive load during pan operations.",
       "Applications and Use Cases:",
-      "Dynamic Geovisualization: Enhancing usability and cognitive efficiency by optimizing label positioning.",
+      "Dynamic Geovisualisation: Enhancing usability and cognitive efficiency by optimizing label positioning.",
       "Interactive Cartographic Interfaces: Applying cognitive mapping strategies to improve spatial cognition.",
-      "Geovisualization Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
+      "Geovisualisation Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
       "Recommendations for Dynamic Map Design:",
       "Use consistent label positions to reduce cognitive load and improve usability during pan operations.",
       "Implement adaptive zooming and panning interfaces that maintain visual context and cognitive mapping.",
@@ -4509,13 +4509,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/13658816.2011.642801",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of dynamic interactive maps)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of dynamic maps with simulated pan operations)",
       "Comparative Analysis (comparing expert and novice users in map interpretation)",
-      "Fixation Duration and Count Analysis (to analyze cognitive processes and visual attention)",
+      "Fixation Duration and Count Analysis (to analyse cognitive processes and visual attention)",
       "Response Time Measurements (to evaluate task efficiency and cognitive load)"
     ],
     "studyWithExperiment": "yes",
@@ -4570,9 +4570,9 @@ export const data: readonly StudyRow[] = [
       "Participants preferred the dynamic interactive maps for their contextual updating and dynamic interactions.",
       "Consistent label positions were recommended to reduce cognitive load during pan operations.",
       "Applications and Use Cases:",
-      "Dynamic Geovisualization: Enhancing usability and cognitive efficiency by optimizing label positioning.",
+      "Dynamic Geovisualisation: Enhancing usability and cognitive efficiency by optimizing label positioning.",
       "Interactive Cartographic Interfaces: Applying cognitive mapping strategies to improve spatial cognition.",
-      "Geovisualization Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
+      "Geovisualisation Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
       "Recommendations for Dynamic Map Design:",
       "Use consistent label positions to reduce cognitive load and improve usability during pan operations.",
       "Implement adaptive zooming and panning interfaces that maintain visual context and cognitive mapping.",
@@ -4594,13 +4594,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1179/1743277412Y.0000000010",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of dynamic interactive maps)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of dynamic maps with simulated pan operations)",
       "Comparative Analysis (comparing two label placement methods: Border-labels relocated vs. All-labels relocated)",
-      "Fixation Duration and Count Analysis (to analyze cognitive processes and visual attention)",
+      "Fixation Duration and Count Analysis (to analyse cognitive processes and visual attention)",
       "Response Time Measurements (to evaluate task efficiency and cognitive load)"
     ],
     "studyWithExperiment": "yes",
@@ -4660,9 +4660,9 @@ export const data: readonly StudyRow[] = [
       "No participant noticed the difference between the two label placement methods.",
       "Participants did not express any preference for one label placement type over the other.",
       "Applications and Use Cases:",
-      "Dynamic Geovisualization: Enhancing usability and cognitive efficiency by optimizing label positioning.",
+      "Dynamic Geovisualisation: Enhancing usability and cognitive efficiency by optimizing label positioning.",
       "Interactive Cartographic Interfaces: Applying cognitive mapping strategies to improve spatial cognition.",
-      "Geovisualization Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
+      "Geovisualisation Design: Using qualitative clustering and scanpath visualization for evidence-based map design.",
       "Recommendations for Dynamic Map Design:",
       "Use consistent label positions to reduce cognitive load and improve usability during pan operations.",
       "Implement adaptive zooming and panning interfaces that maintain visual context and cognitive mapping.",
@@ -4683,13 +4683,13 @@ export const data: readonly StudyRow[] = [
     "year": 2011,
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of cartographic animations)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of semistatic and complex animated maps)",
       "Comparative Analysis (comparing semistatic animations vs. traditional animations and complex animated maps)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Temporal Analysis (to examine cognitive processes and usability patterns over time)"
     ],
     "studyWithExperiment": "yes",
@@ -4706,7 +4706,7 @@ export const data: readonly StudyRow[] = [
     ],
     "taskTypes": [
       "Trend Analysis (e.g., observing trends at specific locations over time)",
-      "Spatial-Temporal Analysis (e.g., analyzing changes across space and time)",
+      "Spatial-Temporal Analysis (e.g., analysing changes across space and time)",
       "Memory Tasks (e.g., recalling specific information from the animations)"
     ],
     "numberOfParticipants": [
@@ -4748,7 +4748,7 @@ export const data: readonly StudyRow[] = [
       "Visual clutter was reported in gaze plots and heat maps, indicating the need for optimized component layout.",
       "Applications and Use Cases:",
       "Cartographic Animation Design: Enhancing usability and cognitive efficiency by integrating semistatic features.",
-      "Geovisualization Design: Applying temporal comparison techniques for spatial-temporal data analysis.",
+      "Geovisualisation Design: Applying temporal comparison techniques for spatial-temporal data analysis.",
       "Human-Computer Interaction (HCI): Designing dynamic geovisualizations that support cognitive mapping.",
       "Recommendations for Animated Map Design:",
       "Use semistatic animations for temporal comparison tasks and trend analysis.",
@@ -4771,13 +4771,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1179/1743277413Y.0000000049",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of multi-component animated maps)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of multi-component dynamic cartographic displays)",
       "Comparative Analysis (comparing viewing patterns between free-exploration and task-based viewing)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -4838,7 +4838,7 @@ export const data: readonly StudyRow[] = [
       "Free exploration led to intuitive viewing patterns, while task-based viewing guided attention more evenly.",
       "Applications and Use Cases:",
       "Cartographic Animation Design: Enhancing usability and cognitive efficiency by integrating dynamic and static components.",
-      "Geovisualization Design: Applying motion and dynamic variables for temporal comparison and spatial analysis.",
+      "Geovisualisation Design: Applying motion and dynamic variables for temporal comparison and spatial analysis.",
       "Human-Computer Interaction (HCI): Designing context-aware geovisualizations to reduce split attention and cognitive load.",
       "Recommendations for Animated Map Design:",
       "Use dynamic variables for temporal comparison and static components for spatial context.",
@@ -4861,11 +4861,11 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1109/ISM.2016.77",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 3,
+    "relevanceGeovisualisation": 3,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of interactive data visualization tools)",
-      "Mouse Tracking (to analyze navigation patterns and user interactions)",
+      "Mouse Tracking (to analyse navigation patterns and user interactions)",
       "Quantitative Usability Testing (using gaze and mouse tracking data to evaluate usability and cognitive efficiency)",
       "Sequence Analysis (translating user operations into sequences for comparing with optimal sequences)",
       "Edit Distance and Fitts' Law (to evaluate operational efficiency and cognitive load)"
@@ -4952,7 +4952,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi8080363",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of map-based visual analytic tools)",
@@ -5025,7 +5025,7 @@ export const data: readonly StudyRow[] = [
       "Participants preferred dynamic animations for temporal comparisons but faced cognitive overload with multi-component layouts.",
       "Interactive filters and timelines were rated as highly useful but complex to operate.",
       "Applications and Use Cases:",
-      "Geovisualization Design: Applying dynamic filtering and timeline exploration for spatio-temporal analysis.",
+      "Geovisualisation Design: Applying dynamic filtering and timeline exploration for spatio-temporal analysis.",
       "Human-Computer Interaction (HCI): Using eye-tracking insights to optimize UI/UX design for interactive visual analytics.",
       "Recommendations for Map-Based Visual Analytics Design:",
       "Integrate intuitive controls and context-aware legends to enhance usability.",
@@ -5048,7 +5048,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi8060256",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of weather web maps)",
@@ -5068,7 +5068,7 @@ export const data: readonly StudyRow[] = [
       "SMI Experiment Center for experiment design",
       "SMI BeGaze for data analysis and AOI metrics",
       "OGAMA (Open Gaze and Mouse Analyzer) for static part analysis",
-      "Sequence Chart and ScanGraph for analyzing viewing strategies"
+      "Sequence Chart and ScanGraph for analysing viewing strategies"
     ],
     "taskTypes": [
       "Dynamic Interaction Tasks (e.g., switching thematic layers, scrolling map, switching timelines)",
@@ -5116,7 +5116,7 @@ export const data: readonly StudyRow[] = [
       "Interactive filters and timelines were rated as useful but complex to operate.",
       "Applications and Use Cases:",
       "Weather Web Map Design: Enhancing usability and cognitive efficiency by optimizing layout and interaction patterns.",
-      "Geovisualization Design: Applying dynamic filtering and timeline exploration for spatio-temporal analysis.",
+      "Geovisualisation Design: Applying dynamic filtering and timeline exploration for spatio-temporal analysis.",
       "Human-Computer Interaction (HCI): Using eye-tracking insights to optimize UI/UX design for interactive weather maps.",
       "Recommendations for Weather Web Map Design:",
       "Integrate intuitive controls and context-aware legends to enhance usability.",
@@ -5139,13 +5139,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/15230406.2021.2015721",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of swipe and multiple view methods)",
       "Usability Testing (to evaluate effectiveness and cognitive efficiency of multiple view vs. swipe methods)",
       "Comparative Analysis (comparing multiple view and swipe for map comparison tasks)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Gaze Transition Analysis (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -5158,7 +5158,7 @@ export const data: readonly StudyRow[] = [
     "evaluationSoftware": [
       "SMI Experiment Center for experiment design",
       "SMI BeGaze for data analysis and AOI metrics",
-      "Sequence Chart and ScanGraph for analyzing viewing strategies"
+      "Sequence Chart and ScanGraph for analysing viewing strategies"
     ],
     "taskTypes": [
       "Map Comparison Tasks (e.g., comparing land suitability using two or four maps)",
@@ -5176,7 +5176,7 @@ export const data: readonly StudyRow[] = [
       "Land Suitability Maps created using Urban Planner in Esri ArcGIS Online",
       "Four Types of Suitability: Housing, Recreation, Commercial Activities, and Industry",
       "Tasks:",
-      "Task 1: Select the highest suitability area (Training task with one window, not analyzed in detail)",
+      "Task 1: Select the highest suitability area (Training task with one window, not analysed in detail)",
       "Task 2: Select the highest suitability area using two or four maps",
       "Task 3: Select the area with a high value of one suitability type and low values of others"
     ],
@@ -5204,7 +5204,7 @@ export const data: readonly StudyRow[] = [
       "Participants toggled layers instead of using the swipe slider for complex tasks.",
       "Applications and Use Cases:",
       "Web Map Design: Enhancing usability and cognitive efficiency by using Multiple View for complex comparisons.",
-      "Geovisualization Design: Applying Multiple View for spatial pattern recognition and map comparison.",
+      "Geovisualisation Design: Applying Multiple View for spatial pattern recognition and map comparison.",
       "Human-Computer Interaction (HCI): Using eye-tracking insights to optimize UI/UX design for interactive web maps.",
       "Recommendations for Web Map Design:",
       "Use Multiple View for comparing more than two maps to reduce cognitive load and split attention.",
@@ -5227,7 +5227,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.24507/ijicic.18.02.417",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention and usability for navigation tasks)",
@@ -5314,13 +5314,13 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1016/j.jag.2024.104127",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention, cognitive load, and usability of the exploratory tag map)",
       "Usability Testing (to evaluate effectiveness, efficiency, and cognitive load of the exploratory tag map)",
       "Comparative Analysis (comparing the exploratory tag map with intrinsic tag maps)",
-      "AOI (Areas of Interest) Analysis (to analyze attention allocation and fixation transitions)",
+      "AOI (Areas of Interest) Analysis (to analyse attention allocation and fixation transitions)",
       "Sequence Analysis and Heat Maps (to examine cognitive processes and usability patterns)"
     ],
     "studyWithExperiment": "yes",
@@ -5333,7 +5333,7 @@ export const data: readonly StudyRow[] = [
     "evaluationSoftware": [
       "SMI Experiment Center for experiment design",
       "SMI BeGaze for data analysis and AOI metrics",
-      "Sequence Chart and ScanGraph for analyzing viewing strategies"
+      "Sequence Chart and ScanGraph for analysing viewing strategies"
     ],
     "taskTypes": [
       "Global-Within Task (e.g., overview of tags within an attribute class globally)",
@@ -5375,7 +5375,7 @@ export const data: readonly StudyRow[] = [
       "Intrinsic tag maps were perceived as confusing due to undifferentiated attribute visualization.",
       "Exploratory tag maps scored higher in legibility and layout but similar in aesthetics and density.",
       "Applications and Use Cases:",
-      "Geovisualization Design: Enhancing usability and cognitive efficiency by integrating exploratory tag maps for attributes-in-space analysis.",
+      "Geovisualisation Design: Enhancing usability and cognitive efficiency by integrating exploratory tag maps for attributes-in-space analysis.",
       "Human-Computer Interaction (HCI): Applying exploratory tag maps for user-centered geovisualization and spatial decision-making.",
       "Recommendations for Tag Map Design:",
       "Use exploratory tag maps for global-between and local-between tasks to reduce cognitive load and improve usability.",
@@ -5398,7 +5398,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/11555261_61",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking (to measure visual attention and cognitive processing for spatial dialogue and referencing)",
@@ -5462,7 +5462,7 @@ export const data: readonly StudyRow[] = [
       "Gaze overlay was not distracting and provided valuable contextual cues for spatial dialogue.",
       "Applications and Use Cases:",
       "Human-Computer Interaction (HCI): Using gaze overlay for natural multimodal interactions in spatial dialogue systems.",
-      "Geovisualization Design: Applying implicit gaze-based referencing for spatial decision-making and contextual communication.",
+      "Geovisualisation Design: Applying implicit gaze-based referencing for spatial decision-making and contextual communication.",
       "Adaptive User Interfaces: Developing gaze-guided interfaces that adapt to user cognitive state and visual attention patterns.",
       "Recommendations for Gaze Overlay Design:",
       "Use implicit gaze-based references to reduce cognitive load and enhance spatial communication.",
@@ -5485,7 +5485,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3138/cart.50.2.2427",
     "relevanceUsability": 4,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Semi-structured interviews"
@@ -5525,7 +5525,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi4010262",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "User-Centered Design (UCD) process, including needs assessment interviews, expert-based think-aloud studies, and online surveys"
@@ -5569,7 +5569,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1016/j.apgeog.2019.01.001",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Usability testing experiment with eye-tracking and Concurrent Thinking Aloud (CTA) protocol"
@@ -5615,7 +5615,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/23729333.2017.1301347",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 2,
     "mainMethods": [
       "User testing experiment with interactive and animated geovisualizations"
@@ -5662,7 +5662,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1145/3233824.3233828",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 1,
     "mainMethods": [
       "Usability testing experiment comparing body-based and device-based interaction in Virtual Reality (VR) for map interfaces"
@@ -5709,7 +5709,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1007/978-3-642-19641-6_9",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Eye-tracking experiment with usability evaluation of interactive visualizations using Parallel Coordinate Explorer (PCE)"
@@ -5756,7 +5756,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.2478/mgrsd-2018-0014",
     "relevanceUsability": 4,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 3,
     "mainMethods": [
       "Systematic review and meta-analysis of empirical studies in cartography focusing on map stimuli used in experiments"
@@ -5803,7 +5803,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.5194/isprs-archives-XLIII-B4-2020-623-2020",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Usability testing with immersive Virtual Reality (VR) and eye-tracking for evaluating multilayered geovisualizations in public lighting assessment"
@@ -5861,7 +5861,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi6120407",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Experimental usability testing using the Hypothesis platform with integrated eye-tracking and event logging for interactive maps and electronic environments"
@@ -5920,7 +5920,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/19475683.2024.2316601",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using immersive Virtual Reality (VR) with integrated eye-tracking and geosimulation for road-crossing behaviour analysis"
@@ -5974,7 +5974,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.18420/muc2020-ws122-326",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing with collaborative Virtual Reality (VR) using eye-tracking and interactive geovisualizations for educational geoscience interpretation"
@@ -6029,7 +6029,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/00087041.2022.2097759",
     "relevanceUsability": 5,
     "relevanceInteractivity": 4,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 4,
     "mainMethods": [
       "Experimental usability testing with eye-tracking and questionnaire techniques for metaphorical multivariate symbols"
@@ -6090,7 +6090,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/15230406.2024.2410472",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using eye-tracking and statistical analysis of mini-map usage in virtual geographical space within the video game League of Legends"
@@ -6156,7 +6156,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3389/fpsyg.2022.1040533",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using eye-tracking and statistical analysis of color and layout coding on mobile map navigation icons"
@@ -6227,7 +6227,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.3390/ijgi12100412",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 5,
+    "relevanceGeovisualisation": 5,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using gaze-adaptive approaches and eye-tracking for raster value identification and comparison across multilayers"
@@ -6296,7 +6296,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1080/15230406.2024.2335331",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using gaze interaction and eye-tracking for map target selection"
@@ -6365,7 +6365,7 @@ export const data: readonly StudyRow[] = [
     "doi": "10.1109/ISMAR59233.2023.00021",
     "relevanceUsability": 5,
     "relevanceInteractivity": 5,
-    "relevanceGeovisualization": 4,
+    "relevanceGeovisualisation": 4,
     "relevanceEyeTracking": 5,
     "mainMethods": [
       "Experimental usability testing using eye-tracking and subjective quality assessment for Dynamic Point Cloud (DPC) in Virtual Reality (VR)"

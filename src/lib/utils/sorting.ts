@@ -43,8 +43,8 @@ function getSortValue(study: StudyRow, field: SortField): any {
       return study.relevanceUsability;
     case 'relevanceInteractivity':
       return study.relevanceInteractivity;
-    case 'relevanceGeovisualization':
-      return study.relevanceGeovisualization;
+    case 'relevanceGeovisualisation':
+      return study.relevanceGeovisualisation;
     case 'relevanceEyeTracking':
       return study.relevanceEyeTracking;
     default:

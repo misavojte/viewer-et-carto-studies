@@ -19,7 +19,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Scoping Review: Eye-tracking Studies on Interactive Geovisualisations" />
 	<meta property="og:description" content="Comprehensive research database examining eye-tracking studies on the usability of interactive geovisualisations by researchers from Palacky University Olomouc, Department of Geoinformatics." />
-	<meta property="og:site_name" content="Eye-tracking Geovisualization Research - Palacky University Olomouc" />
+	<meta property="og:site_name" content="Eye-tracking Geovisualisation Research - Palacky University Olomouc" />
 	<meta property="og:locale" content="en_US" />
 	
 	<!-- Twitter -->
@@ -37,7 +37,7 @@
 	<meta name="DC.creator" content="Tomáš Vaníček" />
 	<meta name="DC.creator" content="Michaela Vojtěchovská" />
 	<meta name="DC.creator" content="Stanislav Popelka" />
-	<meta name="DC.subject" content="Eye-tracking, Geovisualization, Cartography, Usability, Interactive Maps" />
+	<meta name="DC.subject" content="Eye-tracking, Geovisualisation, Cartography, Usability, Interactive Maps" />
 	<meta name="DC.description" content="Comprehensive scoping review examining eye-tracking methodologies in interactive geovisualization research conducted by the Department of Geoinformatics at Palacky University Olomouc" />
 	<meta name="DC.type" content="Dataset" />
 	<meta name="DC.format" content="text/html" />
@@ -162,7 +162,7 @@
 		"about": [
 			{
 				"@type": "Thing",
-				"name": "Geovisualization Usability Research"
+				"name": "Geovisualisation Usability Research"
 			},
 			{
 				"@type": "Thing", 

@@ -138,7 +138,7 @@ const participantPercentiles = (() => {
 							Interactivity
 						</th>
 						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
-							Geoviz
+							Geovis
 						</th>
 						<th class="px-4 py-4 text-center font-bold text-white border-r border-blue-300" style="width: 128px;">
 							Eye Tracking

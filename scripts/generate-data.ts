@@ -57,7 +57,7 @@ const data: StudyRow[] = rowsRaw.map(r => ({
   doi:                      (String(r['DOI']).trim() || undefined),
   relevanceUsability:       parseLikert(r['Relevance for USABILITY EVALUATION (1 low, 5 high)']),
   relevanceInteractivity:   parseLikert(r['Relevance for INTERACTIVITY (1 low, 5 high)']),
-  relevanceGeovisualization:parseLikert(r['Relevance for GEOVISUALIZATION (1 low, 5 high)']),
+  relevanceGeovisualisation:parseLikert(r['Relevance for GEOVISUALIZATION (1 low, 5 high)']),
   relevanceEyeTracking:     parseLikert(r['Relevance for EYE-TRACKING (1 low, 5 high)']),
   mainMethods:              newlineSplit(r['Main method used']),
   studyWithExperiment:      String(r['Study with experiment']).trim(),

@@ -76,10 +76,10 @@ const hasExperiment = study.studyWithExperiment?.toLowerCase().includes('yes');
         />
       </div>
       <div class="text-center">
-        <p class="text-sm font-medium text-gray-700 mb-2">Geovisualization</p>
+        <p class="text-sm font-medium text-gray-700 mb-2">Geovisualisation</p>
         <LikertValue 
-          likertValue={study.relevanceGeovisualization} 
-          label="Geovisualization Relevance"
+          likertValue={study.relevanceGeovisualisation} 
+          label="Geovisualisation Relevance"
           tailwindCss="w-16 h-4 mx-auto"
         />
       </div>
