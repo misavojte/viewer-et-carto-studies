@@ -140,27 +140,41 @@ function getOperatorsForField(field: FilterField): FilterOperator[] {
               </div>
 
               <!-- Operator selector -->
-              <div class="w-20 flex-shrink-0">
-                <select
-                  value={rule.operator}
-                  onchange={(e) => updateFilterRule(rule.id, { operator: e.currentTarget.value as FilterOperator })}
-                  class="block w-full px-2 py-1 border border-gray-300 rounded text-xs cursor-pointer hover:border-gray-400 transition-colors duration-200"
-                >
-                  {#each getOperatorsForField(rule.field) as operator}
-                    <option value={operator}>{FILTER_OPERATOR_LABELS[operator]}</option>
-                  {/each}
-                </select>
-              </div>
+              {#if rule.field !== 'studyWithExperiment'}
+                <div class="w-20 flex-shrink-0">
+                  <select
+                    value={rule.operator}
+                    onchange={(e) => updateFilterRule(rule.id, { operator: e.currentTarget.value as FilterOperator })}
+                    class="block w-full px-2 py-1 border border-gray-300 rounded text-xs cursor-pointer hover:border-gray-400 transition-colors duration-200"
+                  >
+                    {#each getOperatorsForField(rule.field) as operator}
+                      <option value={operator}>{FILTER_OPERATOR_LABELS[operator]}</option>
+                    {/each}
+                  </select>
+                </div>
+              {/if}
 
               <!-- Value input -->
-              <div class="w-20 flex-shrink-0">
-                <input
-                  type="text"
-                  value={rule.value}
-                  oninput={(e) => updateFilterRule(rule.id, { value: e.currentTarget.value })}
-                  placeholder="Value..."
-                  class="block w-full px-2 py-1 border border-gray-300 rounded text-xs hover:border-gray-400 transition-colors duration-200"
-                />
+              <div class="{rule.field === 'studyWithExperiment' ? 'w-[10.5rem]' : 'w-20'} flex-shrink-0">
+                {#if rule.field === 'studyWithExperiment'}
+                  <select
+                    value={rule.value}
+                    onchange={(e) => updateFilterRule(rule.id, { value: e.currentTarget.value })}
+                    class="block w-full px-2 py-1 border border-gray-300 rounded text-xs cursor-pointer hover:border-gray-400 transition-colors duration-200"
+                  >
+                    <option value="">All</option>
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                  </select>
+                {:else}
+                  <input
+                    type="text"
+                    value={rule.value}
+                    oninput={(e) => updateFilterRule(rule.id, { value: e.currentTarget.value })}
+                    placeholder="Value..."
+                    class="block w-full px-2 py-1 border border-gray-300 rounded text-xs hover:border-gray-400 transition-colors duration-200"
+                  />
+                {/if}
               </div>
 
               <!-- Remove button -->

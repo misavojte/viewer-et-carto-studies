@@ -52,6 +52,15 @@ function applyFilterRule(study: StudyRow, field: FilterField, operator: FilterOp
     return true; // Empty filters don't exclude anything
   }
   
+  // Special handling for studyWithExperiment field with Yes/No values
+  if (field === 'studyWithExperiment') {
+    if (filterValue.toLowerCase() === 'yes') {
+      return String(fieldValue).toLowerCase() === 'yes';
+    } else if (filterValue.toLowerCase() === 'no') {
+      return String(fieldValue).toLowerCase() !== 'yes';
+    }
+  }
+  
   switch (operator) {
     case 'EQUALS':
       if (typeof fieldValue === 'number') {
